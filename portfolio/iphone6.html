@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+    <head>
+    
+        <meta charset="utf-8">
+        <title>Toffeenut Design &middot; Minimal iPhone 6 PSD</title>
+        <meta name="description" content="Portfolio of visual icon and user interface designer for mobile, web and desktop applications">
+        <meta name="author" content="Angela Toffeenut Design">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        
+        <link rel="shortcut icon" href="../img/device/favicon.ico">
+        <link rel="apple-touch-icon" sizes="120x120" href="../img/device/120px.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="../img/device/152px.png" />
+
+        <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
+		<link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
+		<link rel="stylesheet" href="../css/animate.css" type="text/css">
+        <link rel="stylesheet" href="../css/main.css" type="text/css">
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat" type="text/css">
+		<link rel="stylesheet" href='//fonts.googleapis.com/css?family=Bitter' type='text/css'>
+		
+        <script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        
+        <!--ANALYTICS-->
+        
+        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-5367166-5']);
+          _gaq.push(['_trackPageview']);
+          _gaq.push(['_trackPageview', '/portfolio/iphone6.html']);
+          
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        
+        </script>
+
+
+    </head>
+    
+    <body>
+ 
+	<!--MAIN-->
+	<div class="main-container">
+		
+<div id="portfolioajax">
+    
+    <img src="http://toffeenutdesign.com/portfolio/images/iphone6.jpg" class="img-responsive"/>
+    
+    <span>Minimal iPhone 6</span>
+    <dot>&middot;</dot>
+    <client>Download PSD</client>
+    
+    <div class="content">
+	I always prefer minimal hardware mockups when showcasing UI designs. After all, you're selling the app and not the device.
+	<br><br>
+	Here is a fully-layered, all-vector PSD. Put it to good use.
+	<br><br>
+	<p><a href="../downloads/iphone6.zip" class="btnajax">Download .Zip</a></p>
+	<p><a href="../" class="btnajax">Back to Portfolio</a></p>
+	</div>
+	
+</div>
+				
+	</div> <!--closes div main container above-->
+		
+	<!--SCRIPTS-->
+	
+  		<script type="text/javascript" src="../js/vendor/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="../js/vendor/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/vendor/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="../js/plugins.js"></script>
+		<script type="text/javascript" src="../js/main.js"></script>
+
+		<script>
+			$(document).ready(function(){
+	
+				PORTR.preloader();	
+				PORTR.scrollAnim("yes");
+				PORTR.parallax(true);
+				PORTR.nav();
+				PORTR.scrollTop();
+				PORTR.portfolio("#sidebar-wrapper .filter.portfolio a", "#portfolio .portfolio-link", "#portfolio");
+				PORTR.map({"type":"color","selector":"map-container"});
+				PORTR.slider("#slides", {'play':5000, 'animation': 'fade'});
+				PORTR.bootstrapCarousel({'#carousel-head':{interval:2500,pause:false}});
+				
+				$('.portfolioajax').magnificPopup({
+				  type: 'ajax',
+				  alignTop: true,
+				  closeBtnInside:false,
+				  overflowY: 'scroll',
+				  gallery:
+				  {enabled:true,
+				  navigateByImgClick: true},
+				  removalDelay: 0,
+				});
+												
+			}); //document ready
+		</script>
+		  
+    </body>
+       
+</html>
