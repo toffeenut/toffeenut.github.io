@@ -1,0 +1,128 @@
+/*MAIN-BG.CSS*/
+
+/*--------------------------------------------------------------*/
+/* INTRO VARIANTS */
+/*--------------------------------------------------------------*/
+.intro01-bg{
+	background-image: url('../images/promo/01.jpg');
+}
+.intro04-bg{
+	background-image: url('../images/promo/02.jpg');
+}
+.intro07-bg{
+	background-image: url('../images/promo/03.jpg');
+}
+.intro-08-bg{
+	background-image: url('../images/promo/04.jpg');
+}
+.intro12-bg{
+	background-image: url('../images/promo/05.jpg');
+}
+
+/*--------------------------------------------------------------*/
+/* SHOWCASE VARIANTS */
+/*--------------------------------------------------------------*/
+
+.showcase-01-layer-01{
+	background-image: url('../images/promo/01.jpg');
+}
+.showcase-01-layer-02{
+	background-image: url('../images/promo/02.jpg');
+}
+.showcase-01-layer-03{
+	background-image: url('../images/promo/03.jpg');
+}
+.showcase-01-layer-04{
+	background-image: url('../images/promo/04.jpg');
+}
+.showcase-01-layer-05{
+	background-image: url('../images/promo/05.jpg');
+}
+
+/*--------------------------------------------------------------*/
+/* PRODUCT VIEW */
+/*--------------------------------------------------------------*/
+
+.product-showcase-item-01{
+	background-image: url('../images/product/01.jpg');
+}
+.product-showcase-item-02{
+	background-image: url('../images/product/02.jpg');
+}
+.product-showcase-item-03{
+	background-image: url('../images/product/03.jpg');
+}
+.product-showcase-item-04{
+	background-image: url('../images/product/04.jpg');
+}
+.product-showcase-item-05{
+	background-image: url('../images/product/05.jpg');
+}
+.product-showcase-item-06{
+	background-image: url('../images/product/06.jpg.html');
+}
+.product-promo-bg{
+	background-image: url('../images/product/main.jpg');
+}
+/*--------------------------------------------------------------*/
+/* PAGES AND SECTIONS */
+/*--------------------------------------------------------------*/
+
+.about-bg{
+	background-image: url('../images/bg/22.jpg');
+}
+.process-bg{
+	background-image: url('../images/bg/13.jpg');
+}
+.services-bg{
+	background-image: url('../images/bg/14.jpg');
+}
+.team-bg{
+	background-image: url('../images/bg/11.jpg');
+}
+.pricing-bg{
+	background-image: url('../images/bg/11.jpg');
+}
+.news-bg{
+	background-image: url('../images/bg/16.jpg');
+}
+.contact-bg{
+	background-image: url('../images/bg/15.jpg');
+}
+.boxed-bg{
+	background-image: url('../images/bg/23.jpg');
+}
+.service-icon-bg-01:hover{
+	background-image: url('../images/services/01.jpg');
+}
+.service-icon-bg-02:hover{
+	background-image: url('../images/services/02.jpg');
+}
+.service-icon-bg-03:hover{
+	background-image: url('../images/services/03.jpg');
+}
+.service-icon-bg-04:hover{
+	background-image: url('../images/services/04.jpg');
+}
+.service-icon-bg-05:hover{
+	background-image: url('../images/services/05.jpg');
+}
+.service-icon-bg-06:hover{
+	background-image: url('../images/services/06.jpg');
+}
+.news-list-01:hover{
+	background-image:url('../images/news/01.jpg') !important; 
+}
+.news-list-02:hover{
+	background-image:url('../images/news/02.jpg') !important;  
+}
+.news-list-03:hover{
+	background-image:url('../images/news/03.jpg') !important;  
+}
+
+/*--------------------------------------------------------------*/
+/* MISC ELEMENTS */
+/*--------------------------------------------------------------*/
+.menu-bg{
+	background-image: url('../images/menu.jpg');
+}
