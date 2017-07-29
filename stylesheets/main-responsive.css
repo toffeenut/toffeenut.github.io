@@ -88,7 +88,7 @@
 	    width: 100px;
 	    margin-top: 9px;
 	}
-	.head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
+	.head-caps, .showcase-01 .head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
 		font-size: 40px;
 		line-height: 47px;
 	}
@@ -181,7 +181,7 @@
 	    width: 100px;
 	    margin-top: 9px;
 	}
-	.head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
+	.head-caps, .showcase-01 .head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
 		font-size: 40px;
 		line-height: 47px;
 	}
@@ -271,7 +271,7 @@
 	    width: 100px;
 	    margin-top: 8px;
 	}
-	.head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
+	.head-caps, .showcase-01 .head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
 		font-size: 40px;
 		line-height: 47px;
 	}
@@ -372,8 +372,8 @@
 	    width: 100px;
 	    margin-top: 5px;
 	}
-	.head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
-		font-size: 36px;
+	.head-caps, .showcase-01 .head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
+		font-size: 40px;
 		line-height: 43px;
 	}
 	.page-heading, .news-date h1, .fashion-caps, .intro-05 h2, .intro-05 h1 span, .intro04 h1 span{
@@ -471,8 +471,8 @@
 	    width: 100px;
 	    margin-top: 5px;
 	}
-	.head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
-		font-size: 36px;
+	.head-caps, .showcase-01 .head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
+		font-size: 40px;
 		line-height: 43px;
 	}
 	.page-heading, .news-date h1, .fashion-caps, .intro-05 h2, .intro-05 h1 span, .intro04 h1 span{
@@ -481,8 +481,8 @@
 	}
 	.sub-heading-minor, .minimal-caps, .process-text, .news-list h3, .hero-text, 
 	 .elements-counter .number, .elements-counter .subject{
-		font-size: 22px;
-		line-height: 29px;
+		font-size: 24px;
+		line-height: 34px;
 		letter-spacing: 4px;
 	}
 	 .intro-08 .rotator-wrap span, .intro-05 h6 span, .intro-05 h5 span, .intro-05 h4{
@@ -570,18 +570,17 @@
 	    width: 100px;
 	    margin-top: 5px;
 	}
-	.head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
-		font-size: 32px;
-		line-height: 39px;
+	.head-caps, .showcase-01 .head-caps, .showcase-01 .head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
+		font-size: 40px;
+		line-height: 32px;
 	}
 	.page-heading, .news-date h1, .fashion-caps, .intro-05 h2, .intro-05 h1 span, .intro04 h1 span{
 		font-size: 24px;
 		line-height: 31px;
 	}
-	.sub-heading-minor, .minimal-caps, .process-text, .news-list h3, .hero-text, 
-	 .elements-counter .number, .elements-counter .subject{
-		font-size: 18px;
-		line-height: 25px;
+	.sub-heading-minor, .minimal-caps, .process-text, .news-list h3, .hero-text, .elements-counter .number, .elements-counter .subject{
+		font-size: 24px;
+		line-height: 34px;
 		letter-spacing: 4px;
 	}
 	 .intro-08 .rotator-wrap span, .intro-05 h6 span, .intro-05 h5 span, .intro-05 h4{
@@ -669,8 +668,8 @@
 	    width: 100px;
 	    margin-top: 5px;
 	}
-	.head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
-		font-size: 30px;
+	.head-caps, .showcase-01 .head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
+		font-size: 40px;
 		line-height: 37px;
 	}
 	.page-heading, .news-date h1, .fashion-caps, .intro-05 h2, .intro-05 h1 span, .intro04 h1 span{
@@ -679,8 +678,8 @@
 	}
 	.sub-heading-minor, .minimal-caps, .process-text, .news-list h3, .hero-text, 
 	 .elements-counter .number, .elements-counter .subject{
-		font-size: 16px;
-		line-height: 23px;
+		font-size: 24px;
+		line-height: 34px;
 		letter-spacing: 4px;
 	}
 	 .intro-08 .rotator-wrap span, .intro-05 h6 span, .intro-05 h5 span, .intro-05 h4{
@@ -758,6 +757,7 @@
 	}
 	.page-section, .separator-section{
 		padding: 40px 0;
+		max-width: 75%;
 	}
 	img.img-responsive{
 		display: inline-block;
@@ -772,8 +772,8 @@
 	    width: 100px;
 	    margin-top: 5px;
 	}
-	.head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
-		font-size: 30px;
+	.head-caps, .showcase-01 .head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
+		font-size: 40px;
 		line-height: 37px;
 	}
 	.page-heading, .news-date h1, .fashion-caps, .intro-05 h2, .intro-05 h1 span, .intro04 h1 span{
@@ -782,8 +782,8 @@
 	}
 	.sub-heading-minor, .minimal-caps, .process-text, .news-list h3, .hero-text, 
 	 .elements-counter .number, .elements-counter .subject{
-		font-size: 16px;
-		line-height: 23px;
+		font-size: 24px;
+		line-height: 34px;
 		letter-spacing: 4px;
 	}
 	 .intro-08 .rotator-wrap span, .intro-05 h6 span, .intro-05 h5 span, .intro-05 h4{
@@ -859,7 +859,8 @@
 		width: 100%;
 	}
 	.page-section, .separator-section{
-		padding: 40px 0;
+		padding: 20px 0;
+		max-width: 75%;
 	}
 	img.img-responsive{
 		display: inline-block;
@@ -874,8 +875,8 @@
 	    width: 100px;
 	    margin-top: 5px;
 	}
-	.head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
-		font-size: 28px;
+	.head-caps, .showcase-01 .head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
+		font-size: 32px;
 		line-height: 35px;
 	}
 	.page-heading, .news-date h1, .fashion-caps, .intro-05 h2, .intro-05 h1 span, .intro04 h1 span{
@@ -884,9 +885,13 @@
 	}
 	.sub-heading-minor, .minimal-caps, .process-text, .news-list h3, .hero-text, 
 	 .elements-counter .number, .elements-counter .subject{
-		font-size: 14px;
-		line-height: 21px;
+		font-size: 24px;
+		line-height: 34px;
 		letter-spacing: 4px;
+	}
+	.head-subline{
+		font-size: 15px;
+		line-height: 24px;
 	}
 	 .intro-08 .rotator-wrap span, .intro-05 h6 span, .intro-05 h5 span, .intro-05 h4{
 		font-size: 12px;
@@ -962,7 +967,8 @@
 		width: 100%;
 	}
 	.page-section, .separator-section{
-		padding: 40px 0;
+		padding: 20px 0;
+		max-width: 75%;
 	}
 	img.img-responsive{
 		display: inline-block;
@@ -977,8 +983,8 @@
 	    width: 100px;
 	    margin-top: 5px;
 	}
-	.head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
-		font-size: 28px;
+	.head-caps, .showcase-01 .head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
+		font-size: 32px;
 		line-height: 35px;
 	}
 	.showcase-01 h1 span {
@@ -990,9 +996,13 @@
 	}
 	.sub-heading-minor, .minimal-caps, .process-text, .news-list h3, .hero-text, 
 	 .elements-counter .number, .elements-counter .subject{
-		font-size: 14px;
-		line-height: 21px;
+		font-size: 24px;
+		line-height: 34px;
 		letter-spacing: 4px;
+	}
+	.head-subline{
+		font-size: 14px;
+		line-height: 22px;
 	}
 	 .intro-08 .rotator-wrap span, .intro-05 h6 span, .intro-05 h5 span, .intro-05 h4{
 		font-size: 12px;
@@ -1068,7 +1078,8 @@
 		width: 100%;
 	}
 	.page-section, .separator-section{
-		padding: 40px 0;
+		padding: 20px 0;
+		max-width: 75%;
 	}
 	img.img-responsive{
 		display: inline-block;
@@ -1083,8 +1094,8 @@
 	    width: 100px;
 	    margin-top: 5px;
 	}
-	.head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
-		font-size: 28px;
+	.head-caps, .showcase-01 .head-caps, .showcase-02 .head-caps, .showcase-03 .head-caps{
+		font-size: 32px;
 		line-height: 35px;
 	}
 	.page-heading, .news-date h1, .fashion-caps, .intro-05 h2, .intro-05 h1 span, .intro04 h1 span{
@@ -1095,6 +1106,10 @@
 		font-size: 14px;
 		line-height: 21px;
 		letter-spacing: 4px;
+	}
+	.head-subline{
+		font-size: 14px;
+		line-height: 22px;
 	}
 	 .intro-08 .rotator-wrap span, .intro-05 h6 span, .intro-05 h5 span, .intro-05 h4{
 		font-size: 12px;
