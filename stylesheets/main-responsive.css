@@ -725,7 +725,7 @@
 @media screen and (max-width: 414px) {
 	
 	.container, .features-details {
-		max-width: 80%;
+		max-width: 90%;
 	    padding-left: 20px;
 	    padding-right: 20px;
 	}
@@ -827,7 +827,7 @@
 @media screen and (max-width: 375px) {
 	
 	.container, .features-details {
-		max-width: 80%;
+		max-width: 90%;
 	    padding-left: 20px;
 	    padding-right: 20px;
 	}
@@ -934,7 +934,7 @@
 @media screen and (max-width: 360px) {
 	
 	.container, .features-details {
-		max-width: 80%;
+		max-width: 90%;
 	    padding-left: 20px;
 	    padding-right: 20px;
 	}
@@ -1044,7 +1044,7 @@
 @media screen and (max-width: 320px) {
 	
 	.container, .features-details {
-		max-width: 80%;
+		max-width: 90%;
 	    padding-left: 20px;
 	    padding-right: 20px;
 	}
