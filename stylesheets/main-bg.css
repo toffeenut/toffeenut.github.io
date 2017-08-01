@@ -72,7 +72,7 @@
 	background-image: url('../images/promo/02.jpg');
 }
 .process-bg{
-	background-image: url('../images/bg/13.jpg');
+	background-image: url('../images/product/bgwhink.jpg');
 }
 .services-bg{
 	background-image: url('../images/bg/14.jpg');
@@ -125,4 +125,35 @@
 /*--------------------------------------------------------------*/
 .menu-bg{
 	background-image: url('../images/menu.jpg');
+}
+
+/*--------------------------------------------------------------*/
+/* PORTFOLIO VARIANTS */
+/*--------------------------------------------------------------*/
+.wall-portfolio-item-01{
+	background-image: url('../images/product/whinkicon@2x.png');
+}
+.wall-portfolio-item-02{
+	background-image: url('../images/product/whinkassets@2x.png');
+}
+.wall-portfolio-item-03{
+	background-image: url('../images/product/whinkdark@2x.png');
+}
+.wall-portfolio-item-04{
+	background-image: url('../images/product/whinkuniversal@2x.png');
+}
+.wall-portfolio-item-05{
+	background-image: url('../images/product/');
+}
+.wall-portfolio-item-06{
+	background-image: url('../images/wall-portfolio/06.jpg');
+}
+.wall-portfolio-item-07{
+	background-image: url('../images/wall-portfolio/07.jpg');
+}
+.wall-portfolio-item-08{
+	background-image: url('../images/wall-portfolio/08.jpg');
+}
+.wall-portfolio-item-09{
+	background-image: url('../images/wall-portfolio/09.jpg');
 }
