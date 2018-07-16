@@ -17,6 +17,22 @@
   margin-top: 0;
   color: #000000;
 }
+.works-item-tall {
+  width: 100%;
+  height: 700px;
+  float: left;
+  background: #f2f2f2;
+  margin-top: 0;
+  color: #000000;
+}
+.works-item-taller {
+  width: 100%;
+  height: 900px;
+  float: left;
+  background: #f2f2f2;
+  margin-top: 0;
+  color: #000000;
+}
 
 .item:hover {
   border-color: white;

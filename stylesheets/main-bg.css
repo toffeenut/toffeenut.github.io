@@ -43,17 +43,26 @@
 /* PAGES AND SECTIONS */
 /*--------------------------------------------------------------*/
 
-.about-bg{
+.about2-bg{
 	background-image: url('../images/promo/02.jpg');
 }
-.about2-bg{
+.about3-bg{
 	background-image: url('../images/promo/03.jpg');
+}
+.about4-bg{
+	background-image: url('../images/promo/04.jpg');
 }
 .process-bg{
 	background-image: url('../images/product/bgwhink.jpg');
 }
 .process2-bg{
 	background-image: url('../images/product/bgdigivalet.jpg');
+}
+.process3-bg{
+	background-image: url('../images/product/bgnsnav.jpg');
+}
+.process4-bg{
+	background-image: url('../images/product/bgnsnotebooks.jpg');
 }
 
 /*--------------------------------------------------------------*/
@@ -81,8 +90,20 @@
 	background-image: url('../images/product/digiipad.jpg');
 }
 .wall-portfolio-item-08{
-	background-image: url('../images/product/');
+	background-image: url('../images/product/nsideate.png');
 }
 .wall-portfolio-item-09{
-	background-image: url('../images/product/');
+	background-image: url('../images/product/nscards.jpg');
+}
+.wall-portfolio-item-10{
+	background-image: url('../images/product/nsmapnewnb.png');
+}
+.wall-portfolio-item-11{
+	background-image: url('../images/product/nsmapimport.png');
+}
+.wall-portfolio-item-12{
+	background-image: url('../images/product/nscomments.jpg');
+}
+.wall-portfolio-item-13{
+	background-image: url('../images/product/nsuniversal.jpg');
 }
