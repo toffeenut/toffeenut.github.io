@@ -163,7 +163,7 @@ a:active, a:hover, a:focus{outline: none;}
 /* Feel the Joy Section Start */
 .feelthe_bg{background-image: url("../images/feel_bg.jpg"); background-repeat: no-repeat}
 .feelthe_dummy{height:325px;}
-.feelthe_bg p{font-size:40pt; color: #fff;text-align: center;margin-bottom: 0;font-family: 'Shadows Into Light', cursive; padding: 0 80px;}
+.feelthe_bg p{font-size:40pt; color: #fff;text-align: center;margin-bottom: 0; padding: 0 80px;font-weight:600;}
 /* Feel the Joy Section End */
 
 /* Experience Rich Section Start */
