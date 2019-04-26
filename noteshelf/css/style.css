@@ -1,0 +1,525 @@
+@charset "utf-8";
+/*
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+*/
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import 'systemfont';
+/* CSS Document */
+body{background: #ffffff;letter-spacing: 0pt; color: rgb(0, 0, 0);font-size:22pt;font-family: 'system-ui', sans-serif;}
+/* Get App Setion Start */
+.get-app .container{padding: 0 0px;overflow: hidden;}
+.cls_bg{background: #fff;height:70px; color: #000;position: fixed;width: 100%;z-index: 99999;font-family: 'system-ui', sans-serif;}
+.xbutton{padding-top:25px;cursor: pointer;}
+.cls_bg img{margin-top: 16px !important;}
+.cls_bg p{text-align: right;padding-top:25px;font-size: 18pt;}
+.cls_bg a{color: #000;}
+.cls_bg a:hover{text-decoration: none;}
+.cls_bg .col-xs-9 {width: 70%;}
+/* Get App Setion End */
+/* Header Section Start */
+.nav_bg{position: fixed;z-index: 9;width: 100%;top: 0;}
+.download-btn{background: #4AA1FF;color: #fff;padding:8px 24px; border-radius:100px;margin-top: -9px;}
+.navbar-default .navbar-nav > li > a{color:#353535;font-weight:400;font-size:13pt;}
+.navbar-default {background-color: #fff;border:none;padding-top:5px;margin-bottom: 40px;}
+.navbar-right{margin-top: 10px;}
+a:active, a:hover, a:focus{outline: none;}
+.navbar-toggle .icon-bar{height: 1px;}
+.navbar-brand > img {max-width:35%;}
+/* Header Section End */
+
+/* The all New Noteshelf Section Start */
+.bg-1{background:#fff;}
+.new_noteshelf{margin-top:200px;text-align: center;}
+.new_noteshelf h1{font-size:68pt; font-weight:600;margin: 0px;}
+.new_noteshelf h1 span{color: rgb(44, 202, 207)}
+.new_noteshelf p{font-size:32pt;margin-top:20px;font-family: -apple-system, BlinkMacSystemFont, sans-serif;padding: 0 40px;}
+.new_noteshelf .image01 img{margin:12px auto 0; max-width: 30%;}
+.new_noteshelf a img{margin:12px auto 0;max-width:24%;}
+/* The all New Noteshelf Section End */
+
+/* Auto play video Section Start */
+.video_one{z-index: 999;height: 850px;}
+.video_one img{margin:40px auto 0;}
+.video_one_bg{background: #F6F6F6;height:460px;margin-top: -460px;position: relative;z-index: -1;}
+.video_one video {position: absolute;top: 12.1%;left: 13%;width: 74.4%;border: 2px solid #363535;}
+/* Auto play video Section End */
+
+/* Handwritten notes Section Start */
+.orange_bg{background: #F6F6F6;text-align: center;color: #000000;}
+.orange_bg .dummy_1{height:60px;}
+.orange_bg .dummy_2{height:120px;}
+.orange_bg h3{font-size: 54pt;font-weight:700;}
+.orange_bg p{font-size:25px;margin-top: 20px;margin-bottom:40px;padding: 0 100px;}
+.orange_bg img{margin: auto;}
+
+.padd-right{padding-right: 0px;}
+.paddlft_rght{padding-left: 0px;padding-right: 0px;}
+.padd-left{padding-left:0;}
+
+/* box one section */
+.box1{background: #fff;margin:10px 0;padding:20px 86px 18px; border-radius:45px;color: rgb(0, 0, 0); font-size:15pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300; float: right;}
+.box1 img, .box2 img, .box3 img, .box4 img, .box5 img, .box6 img, .box7 img, .box8 img{
+	width: 32px;height:32px;}
+.box9 img, .box10 img, .box11 img{width:32px;height:auto;}
+.box1 .padding-left, .box2 .padding-left, .box3 .padding-left, .box4 .padding-left, .box5 .padding-left, .box6 .padding-left, .box7 .padding-left, .box8 .padding-left, .box9 .padding-left, .box10 .padding-left, .box11 .padding-left{padding-left: 10px;}
+.table-responsive{border:none;}
+.box1_1{background: #fff;margin:10px 0;padding:20px 60px 20px; border-radius:45px;color: rgb(0, 0, 0); font-size:15pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box1_1 i::before{content: url("../images/icons/take_notes.png");position: relative;top: 6px;right: 5px;}
+/* box one section end */
+
+/* box two section */
+.box2{background: #fff;margin:10px 30px;padding:20px 60px 18px; border-radius:45px;color: rgb(0, 0, 0); font-size:16pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box2_1{background: #fff;margin:10px 0;padding:20px 60px 20px; border-radius:45px;color: rgb(0, 0, 0); font-size:15pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box2_1 i::before{content: url("../images/icons/record_audio.png");position: relative;top: 6px;right: 5px;}
+/* box one section end */
+
+/* box three section */
+.box3{background: #fff;margin:10px 0px;padding:20px 60px 18px; border-radius:45px;color: rgb(0, 0, 0); font-size:16pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;float: left;}
+.box3_1{background: #fff;margin:10px 0;padding:20px 60px 20px; border-radius:45px;color: rgb(0, 0, 0); font-size:15pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box3_1 i::before{content: url("../images/icons/add_photos.png");position: relative;top: 6px;right: 5px;}
+/* box three section end */
+
+/* box four section */
+.box4{background: #fff;margin:10px 0px;padding:20px 60px 18px; border-radius:45px;color: rgb(0, 0, 0); font-size:16pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;float: right;}
+.box4_1{background: #fff;margin:10px 0;padding:20px 60px 20px; border-radius:45px;color: rgb(0, 0, 0); font-size:15pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box4_1 i::before{content: url("../images/icons/markup.png");position: relative;top: 6px;right: 5px;}
+/* box four section end */
+
+/* box five section */
+.box5{background: #fff;margin:10px 0px;padding:20px 75px 18px; border-radius:45px;color: rgb(0, 0, 0); font-size:16pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box5_1{background: #fff;margin:10px 0;padding:20px 60px 20px; border-radius:45px;color: rgb(0, 0, 0); font-size:15pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box5_1 i::before{content: url("../images/icons/apple.png");position: relative;top: 6px;right: 5px;}
+/* box five section end */
+
+/* box six section */
+.box6{background: #fff;margin:10px 0px;padding:20px 30px 18px; border-radius:45px;color: rgb(0, 0, 0); font-size:16pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;float: left;}
+.box6_1{background: #fff;margin:10px 0;padding:20px 60px 20px; border-radius:45px;color: rgb(0, 0, 0); font-size:15pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box6_1 i::before{content: url("../images/icons/draw.png");position: relative;top: 6px;right: 5px;}
+/* box six section end */
+
+/* box seven section */
+.box7{background: #fff;margin:10px 0px;padding:20px 60px 18px; border-radius:45px;color: rgb(0, 0, 0); font-size:16pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box7_1{background: #fff;margin:10px 0;padding:20px 60px 20px; border-radius:45px;color: rgb(0, 0, 0); font-size:15pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box7_1 i::before{content: url("../images/icons/extensive.png");position: relative;top: 6px;right: 5px;}
+/* box seven section end */
+
+/* box eight section */
+.box8{background: #fff;margin:10px 0px;padding:20px 100px 18px; border-radius:45px;color: rgb(0, 0, 0); font-size:16pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;float: left;}
+.box8_1{background: #fff;margin:10px 0;padding:20px 60px 20px; border-radius:45px;color: rgb(0, 0, 0); font-size:15pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box8_1 i::before{content: url("../images/icons/sync.png");position: relative;top: 6px;right: 5px;}
+/* box eight section end */
+
+/* box nine section */
+.box9{background: #fff;margin:10px 0px;padding:20px 60px 18px; border-radius:45px;color: rgb(0, 0, 0); font-size:16pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box9_1{background: #fff;margin:10px 0;padding:11px 60px 20px; border-radius:45px;color: rgb(0, 0, 0); font-size:15pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box9_1 i::before{content: url("../images/icons/dragdrop.png");position: relative;top: 10px;right: 5px;}
+/* box nine section end */
+
+/* box ten section */
+.box10{background: #fff;margin:10px 0px;padding:20px 60px 18px; border-radius:45px;color: rgb(0, 0, 0); font-size:16pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;float: left;}
+.box10_1{background: #fff;margin:10px 0;padding:20px 60px 20px; border-radius:45px;color: rgb(0, 0, 0); font-size:15pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box10_1 i::before{content: url("../images/icons/scandocuments.png");position: relative;top: 6px;right: 5px;}
+/* box ten section end */
+
+/* box eleven section */
+.box11{background: #fff;margin:10px 0px;padding:16px 40px 16px; border-radius:45px;color: rgb(0, 0, 0); font-size:16pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;position:relative;left: -55%;}
+.box11_1{background: #fff;margin:10px 0;padding:20px 60px 20px; border-radius:45px;color: rgb(0, 0, 0); font-size:15pt; 
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight: 300;}
+.box11_1 i::before{content: url("../images/icons/watch-icon.png");position: relative;top: 6px;right: 5px;}
+/* box eleven section end */
+
+
+/* Handwritten notes Section End */
+
+/* Noteshel Sync Section Start */
+.sync{padding:200px 0;text-align: center;}
+.sync h3{font-size: 54pt;font-weight:700;margin-top: 40px;padding: 0 94px;}
+.sync img{margin:40px auto 10px;max-width:70%;}
+.sync p{font-size:16pt;font-family: -apple-system, BlinkMacSystemFont, sans-serif;}
+/* Noteshel Sync Section End */
+
+/* Feel the Joy Section Start */
+.feelthe_bg{background-image: url("../images/feel_bg.jpg"); background-repeat: no-repeat}
+.feelthe_dummy{height:325px;}
+.feelthe_bg p{font-size:40pt; color: #fff;text-align: center;margin-bottom: 0;font-family: 'Shadows Into Light', cursive; padding: 0 80px;}
+/* Feel the Joy Section End */
+
+/* Experience Rich Section Start */
+.marleft_rigt{margin:0 80px;}
+.marleft{margin:0 0 0 80px;}
+.experience_rich{padding:200px 0;}
+.experience_rich .dummy_3{height:150px;}
+.experience_rich h3{font-size:54pt;font-weight: 700;padding: 0 84px 0 0;}
+.experience_rich p{font-size:24pt;}
+
+.experience_rich .col-md-7, .experience_rich .col-sm-7, .experience_rich .col-sm-5, .experience_rich .col-md-5{padding:0;}
+/* Experience Rich Section End */
+
+/* Annonate Pdfs Section Start */
+.annonate_pdf{overflow: hidden;}
+.annonate_pdf h3{font-size:54pt;font-weight: 700;text-align: right;padding:0 0 0 187px;}
+.annonate_pdf p{text-align: right;padding:0 0 0 210px;}
+.annonate_pdf img{position: relative;left:115px;float: right;}
+.annonate_pdf .dummy_4{height:260px;}
+.annonate_pdf video{max-width:100%;position: relative;left: 115px;}
+/* Annonate Pdfs Section End */
+
+.experience_rich p, .annonate_pdf p, .record_lectures p, .everywhere_bg p, .watch-bg p{font-size: 22pt;font-weight: 300;}
+/* Record Lectures Section Start */
+.record_lectures img{float:right;margin-right:110px;margin-top: -100px;}
+.record_lectures video{float:right;margin-right:60px;margin-top: -100px;max-width:53%;}
+.record_lectures h3{font-size:54pt;font-weight: 700;padding: 0 10px 0 0;}
+.record_lectures .dummy_5{height:150px;}
+.record_lectures .col-md-1{width:4.5%;}
+/* Record Lectures Section End */
+
+/* Watch Section start */
+.watch-bg{background: #ffffff;margin-top:10%;overflow: hidden;padding:3% 0 3%;;text-align:center;}
+.watch-bg h3{font-size: 54pt;font-weight:700;margin-top:75px;}
+.watch-bg img{margin:auto;max-width: 60%;}
+/* Watch Section End */
+
+/* Everywhere anywhere Section Start */
+.dummy_6{height: 150px;}
+.everywhere_bg{background: #ffffff;text-align: center;height:800px;}
+.everywhere_bg h3{font-size: 54pt;font-weight:700;margin-top:120px;}
+.everywhere_bg img{margin:50px auto 0;}
+/* Everywhere anywhere Section End */
+
+/* Testimonial Section Start */
+.testi .dummy_7{height:50px;}
+/* Testimonial Section End */
+
+/* Love us Section Start */
+.love_us h3{font-size:22pt;text-align: center;font-weight: normal;font-family: -apple-system, BlinkMacSystemFont, sans-serif;margin-bottom:3%;}
+.love_us img{margin:3% auto;max-width:90%;}
+.loveus_dummy{height: 44pt;}
+/* Love us Section End */
+
+/* Download Section Start */
+.download img{margin:auto;max-width:28%;}
+.download .dummy_8{height: 180px;}
+.dummy9{margin-bottom:10%;}
+.download h3{text-align: center;font-size:54pt;font-weight: 700;margin:12px 0;}
+.download p{text-align: center;}
+
+/* Download Section End */
+
+/* Footer Section Start */
+.footer_bg{background: #ffffff;text-align: center;padding:55px 0 25px;font-size:14px;}
+.footer_bg a{color: #000000;text-decoration: underline;}
+.footer_bg ul{padding-left:0;margin-top:20px;}
+.footer_bg ul li{list-style-type: none; display: inline;padding: 0 20px;font-size: 22px;}
+.footer_bg .fa-facebook{color: rgb(59, 87, 145)}
+.footer_bg .fa-twitter{color: rgb(50, 167, 224)}
+.footer_bg .fa-pinterest{color: rgb(206, 15, 25)}
+.footer_bg .fa-envelope{color: #363636;}
+/* Footer Section End */
+
+.mobile_mode{display: none;}
+.martop{margin-top:-200px;}
+/* Responsive Mode Section Start */
+
+@media(min-width:10px) and (max-width:320px){
+	.new_noteshelf h1 {font-size: 18pt !important;}
+	.new_noteshelf h1 span {font-size:18pt !important;}
+}
+
+@media(min-width:10px) and (max-width:767px){	
+	.web_mode{display: none;}
+	.mobile_mode{display: block}
+	.mobile_mode img{margin:auto; float: none;}
+	.navbar-brand > img{max-width: 100%;}
+	.navbar-default{margin-bottom: 0;padding-bottom: 20px;}
+	.navbar-toggle {margin-top:19px;background: none;border: none;}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background:none;}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{border: none;}
+	.navbar-default .navbar-toggle .icon-bar{background-color: rgb(54, 54, 54)}
+	.download-btn {margin-top: 0px;padding: 14px 5px;}
+	.new_noteshelf {margin-top: 120px;}
+	.new_noteshelf h1 {font-size:29pt;}
+	.new_noteshelf h1 span {font-size: 34pt;}
+	.new_noteshelf p {font-size: 15pt;margin-top: 10px;padding: 0;}
+	.new_noteshelf a img{max-width:50%;}
+	.video_one_bg {margin-top: -120px;height: 120px;}
+	.orange_bg h3 {font-size: 24pt;}
+	.orange_bg p {font-size: 20px;margin-top:10px;margin-bottom:30px;padding: 0;}	
+	.orange_bg .dummy_2 {height: 50px;}
+	.new_noteshelf .image01 img{max-width:70%;}
+	.sync {padding:120px 0;}
+	
+	.sync h3 {font-size:24pt;margin-top:0px;margin-bottom:8%;padding: 0;}
+	.sync p {margin-top:10px;margin-bottom: 20px;}
+	.sync img{max-width:50%;}
+	
+	.feelthe_dummy {height: 150px;}	
+	.feelthe_bg p {font-size:28px;padding: 0 25px;}
+	
+	.marleft_rigt {margin: 0 10px;}
+	.experience_rich {padding:80px 0 0;}	
+	.experience_rich .dummy_3 {height: 10px;}	
+	.experience_rich h3 {font-size: 24pt;text-align: center;padding: 0;}
+	
+	.marleft {margin:0;}
+	.annonate_pdf .dummy_4 {height:80px;}
+	.annonate_pdf h3 {font-size: 24pt;text-align: center;padding: 0;}
+	.annonate_pdf p{padding:0;}
+	.annonate_pdf img {left:0px;}
+	.martop{margin:0;}
+	.record_lectures .dummy_5 {height:100px;}
+	.record_lectures h3 {font-size: 24pt;text-align: center;padding: 0;}
+	.record_lectures .mobile_mode img{max-width:70%; float:none;}
+	.dummy_6 {height: 30px;}
+	.watch-bg{margin-top:18%;}
+	.everywhere_bg h3, .watch-bg h3 {font-size: 24pt;font-weight: 700;margin-top: 60px;}
+	.everywhere_bg {height:400px;}
+	.everywhere_bg img {margin:30px auto 8%;}
+	
+	.love_us{margin:12% 0 5%;} .love_us h3{margin-bottom: 8%;}
+	.love_us img {margin:5% auto 10%;}
+	
+	.download h3 {font-size: 24pt;}
+	.download{margin-bottom: 15%;}
+	.download img{margin:auto;max-width:40%;}
+	.footer_bg .mobile_mode p{font-size:13px;}
+	.footer_bg ul li {padding: 0 25px;}
+	
+	.video_one .mobile_mode img{max-width:60%; margin:12% auto 0;}
+	.experience_rich p, .annonate_pdf p, .record_lectures p{padding:0 0 30px;text-align: center;}
+	
+	.video_one {height: auto !important;}	
+	.box1_1, .box3_1, .box9_1 {padding:10px 20px 20px !important;width: 75%; margin:8px auto;}
+	.box2_1, .box4_1, .box6_1, .box8_1, .box10_1{padding:10px 20px 20px !important;width:90%; margin:8px auto;}
+	.box5_1, .box7_1, .box11_1{padding:10px 20px 20px !important;margin:8px auto;}	
+	.feelthe_bg{background-image:none;background: rgb(42, 189, 194)}
+	
+	.download .dummy_8{height:20px;margin:15%;}
+}
+
+@media(min-width:768px) and (max-width:868px){
+	.new_noteshelf h1 {font-size: 70px;}
+	.new_noteshelf p{font-size:26pt;padding: 0;}
+	.video_one_bg {margin-top: -290px;height: 290px;}
+	.orange_bg .dummy_1 {height: 30px;}
+	.orange_bg h3, .sync h3, .experience_rich h3, .annonate_pdf h3, .record_lectures h3, .everywhere_bg h3, .download h3, .watch-bg h3 {font-size:34pt;}
+	.orange_bg p, .sync h3, .experience_rich h3, .annonate_pdf h3, .record_lectures h3, .annonate_pdf p{padding: 0px;}
+	.feelthe_dummy {height: 150px;}	
+	.experience_rich .dummy_3, .annonate_pdf .dummy_4{height:10px;}
+	.record_lectures .dummy_5 {height: 120px;}
+	.annonate_pdf img {left: 50px;float: right;}
+	.feelthe_dummy{height: 100px;}
+	.feelthe_bg p {font-size: 35px;}
+	
+	.record_lectures img{margin:auto;max-width:80%;}
+	.everywhere_bg{height: 600px;}
+	
+	.noteshel_logo{max-width: 20%;}
+	.download .dummy_8{margin-top:3% !important;}
+}
+
+@media(min-width:869px) and (max-width:980px){
+	.video_one_bg {height: 260px;margin-top: -260px;}
+	.orange_bg h3, .sync h3, .experience_rich h3, .annonate_pdf h3, .record_lectures h3, .everywhere_bg h3, .download h3, .watch-bg h3 {font-size:38pt;} .sync h3{margin-top: 0;} .feelthe_dummy {height: 150px;} .feelthe_bg p{font-size: 40px;}	
+	.experience_rich .dummy_3 {height: 10px;}
+	.annonate_pdf .dummy_4 {height:30px;}
+	.annonate_pdf img {left: 70px;}
+	.record_lectures img{margin:auto;max-width:60%;}
+	.record_lectures .dummy_5 {height:120px;}.everywhere_bg{height: 600px;} .noteshel_logo{max-width:23%;}
+	.loveus_dummy{height: 0;}
+	.new_noteshelf p, .orange_bg p, .sync h3, .experience_rich h3, .annonate_pdf h3, .record_lectures h3, .annonate_pdf p{padding: 0px;}
+}
+
+@media(min-width:981px) and (max-width:1024px){
+	.video_one_bg {height: 290px;margin-top: -290px;}
+	.orange_bg .dummy_1{height: 30px;}
+	.orange_bg h3, .sync h3, .experience_rich h3, .annonate_pdf h3, .record_lectures h3, .everywhere_bg h3, .download h3, .watch-bg h3 {font-size:40pt;}
+	.sync h3{margin-top: 0px;}
+	.experience_rich .dummy_3 {height:10px;}
+	.annonate_pdf .dummy_4 {height: 50px;}.feelthe_dummy {height: 200px;}
+	.record_lectures img{margin:auto;max-width:68%;}.annonate_pdf img{left:80px;}
+	.everywhere_bg{height:700px;}
+	.orange_bg p, .sync h3, .experience_rich h3, .annonate_pdf h3, .record_lectures h3, .annonate_pdf p{padding: 0px;}
+}
+@media(max-width:340px){.video_one video {top: 22.5%;width: 69%;left: 15.5%;}}
+
+@media(min-width:300px) and (max-width:359px){.video_one video {top: 21%;width: 71%;left: 14%;} 
+	.video_one .mobile_mode img{max-width:90%; margin:8% auto 0;}
+}
+
+@media(min-width:360px) and (max-width:399px){.video_one video {top: 20%;left: 14.6%;width: 71%;}
+.video_one .mobile_mode img{max-width:80%; margin:12% auto 0;}
+	.box1_1, .box2_1, .box3_1, .box4_1, .box5_1, .box6_1, .box7_1, .box8_1{padding: 25px 15px 30px;} 
+}
+
+@media(min-width:400px) and (max-width:499px){.video_one video {top: 17.5%;width: 72.5%;left: 13.3%;}
+	.video_one .mobile_mode img{max-width:80%; margin:12% auto 0;}.new_noteshelf .image01 img{max-width:60%;}
+	.box1_1, .box3_1, .box9_1 {width: 70%;margin:8px auto;padding:13px 20px 20px !important;}
+	.box2_1, .box4_1, .box6_1, .box8_1, .box10_1 {width:80%;margin:8px auto;padding:13px 20px 20px !important;}
+	.box5_1, .box7_1, .box11_1 {width:90%;margin:8px auto;padding:13px 20px 20px !important;}
+}
+
+@media(min-width:500px) and (max-width:599px){.video_one video {top: 16%;width: 73.5%;left: 13.3%;}
+	.video_one .mobile_mode img{max-width:50%; margin:12% auto 0;}
+	.box1_1, .box2_1, .box3_1, .box4_1, .box5_1, .box6_1, .box7_1, .box8_1{padding: 15px 15px 20px;} 
+	.new_noteshelf .image01 img{max-width:50%;}
+	.love_us img{margin:3% auto;max-width: 50%;}
+	.box1_1, .box3_1, .box9_1 {width: 60%;margin:8px auto;padding:13px 20px 20px !important;}
+	.box2_1, .box4_1, .box6_1, .box8_1, .box10_1 {width:70%;margin:8px auto;padding:13px 20px 20px !important;}
+	.box5_1, .box7_1, .box11_1 {width:80%;margin:8px auto;padding:13px 20px 20px !important;}
+}
+
+@media(min-width:600px) and (max-width:699px){.video_one video {top: 14.8%;width: 73.5%;left: 13.5%;}
+	.video_one .mobile_mode img{max-width:50%; margin:12% auto 0;}
+	.new_noteshelf .image01 img{max-width:45%;}
+	.love_us img{margin:3% auto;max-width:60%;}
+	.box1_1, .box3_1, .box9_1 {width: 40%;margin:8px auto;padding:13px 20px 20px !important;}
+	.box2_1, .box4_1, .box6_1, .box8_1, .box10_1 {width:50%;margin:8px auto;padding:13px 20px 20px !important;}
+	.box5_1, .box7_1, .box11_1 {width:60%;margin:8px auto;padding:13px 20px 20px !important;}
+}
+
+@media(min-width:700px) and (max-width:767px){.video_one video {top: 14.3%;width: 73.4%;left: 13.5%;}
+	.video_one .mobile_mode img{max-width:60%; margin:12% auto 0;} 
+	.new_noteshelf .image01 img{max-width:50%;}
+	.love_us img{margin:3% auto;max-width: 60%;}
+	
+	.box1_1, .box3_1, .box9_1 {width: 40%;margin:8px auto;padding:13px 20px 20px !important;}
+	.box2_1, .box4_1, .box6_1, .box8_1, .box10_1 {width:50%;margin:8px auto;padding:13px 20px 20px !important;}
+	.box5_1, .box7_1, .box11_1 {width:60%;margin:8px auto;padding:13px 20px 20px !important;}
+}
+
+@media(min-width:768px) and (max-width:991px){.video_one video {top: 14.4%;width: 73.2%;left: 13.5%;} 
+	.navbar-right {margin-top: -35px;}
+	.love_us img{margin:3% auto;max-width:90%;}
+	.box1{margin: 10px 0;padding: 20px 30px 18px 45px;font-size: 16px;float: none;}
+	.box2{margin: 10px 0;padding: 20px 30px 18px 35px;font-size: 16px;float: none;}
+	.box3{margin: 10px 0;padding: 20px 30px 18px 45px;font-size: 16px;float: none;}
+	.box4{margin: 10px 0 10px 40px;padding: 20px 50px 18px 54px;font-size: 16px;float: none;}
+	.box5{margin: 10px 40px 10px 0;padding: 20px 30px 18px 65px;font-size: 16px;float: none;}
+	.box6{margin: 10px 0;padding: 20px 30px 18px 71px;font-size: 16px;float: none;}
+	.box7{margin: 10px 0;padding: 20px 30px 18px 55px;font-size: 16px;float: none;}
+	.box8{margin: 10px 0 10px 90px;padding: 20px 30px 18px 43px;font-size: 16px;float: none;}
+	.box9{margin: 10px 90px 10px 0;padding: 15px 30px 13px 52px;font-size: 16px;}
+	.box10{margin:10px 29% 10px 31%;padding:19px 30px 17px 58px;font-size: 16px;float: none;}
+	.box11 {margin: 10px -14% 10px 0;padding: 13px 30px 13px 58px;font-size: 16px;float: none;left: 76%;}
+	.padd-right{padding-right: 15px;}
+	.paddlft_rght{padding-left: 15px;padding-right: 15px;}
+	.padd-left{padding-left:15px;}
+	
+	.web_1{display: none;}
+	.tab_1, .tab_2{display: block !important;}
+	.experience_rich {padding: 100px 0 0;}
+	.orange_bg p, .sync h3, .experience_rich h3, .annonate_pdf h3, .record_lectures h3 {padding: 0px 0 0px;text-align: center;font-size: 26pt;}
+	.orange_bg p, .experience_rich p, .annonate_pdf p, .record_lectures p{padding:0 0 25px;text-align: center;}
+	.martop {margin-top:80px;}
+	.annonate_pdf img{float:none;left:0px;margin:auto;}
+	.record_lectures .dummy_5{height:80px;}
+	.record_lectures img{float: none;max-width:40%;}
+	.dummy_6{height:80px;}
+	
+	.tab_1 video, .tab_2 video{left: 0px;}
+	.record_lectures video {float: none; margin-right:0px; margin-top:0px;margin-left: 25%;}
+	
+}
+.tab_2 {display: none;}
+@media(min-width:992px) and (max-width:1199px){.video_one video{top:13%;} .navbar-right {margin-top: -35px;}
+	.love_us img{margin:3% auto;max-width: 90%;}
+	.box1 {padding: 20px 67px 18px;}
+	
+	.box1, .box3, .box8{font-size: 16px;}
+	.box2{margin: 10px 0;padding: 20px 60px 18px;font-size: 16px;}
+	.box4{margin: 10px 0;padding: 20px 50px 18px;font-size: 16px;}
+	.box5{margin: 10px 0;padding: 20px 60px 18px;font-size: 16px;}
+	.box6{margin: 10px 0;padding: 20px 30px 18px;font-size: 16px;}
+	.box7{margin: 10px 0;padding: 20px 50px 18px;font-size: 16px;}
+	
+	.box9 {padding: 20px 50px 18px;font-size: 16px;}
+	.box10{padding: 20px 46px 18px;font-size: 16px;}
+	.box11{padding: 18px 26px 16px;font-size: 16px;}
+	.padd-right{padding-right: 15px;}
+	.paddlft_rght{padding-left: 15px;padding-right: 15px;}
+	.padd-left{padding-left:15px;}
+	
+	.record_lectures video {margin-right: 0px;	margin-top: -50px;max-width: 90%;}
+}
+
+@media(min-width:1025px) and (max-width:1210px){
+	.experience_rich .dummy_3 {height:10px;}
+	.annonate_pdf .dummy_4 {height:50px;}
+	.record_lectures img {float: right;margin-right:50px;margin-top: -30px;}
+	.orange_bg p, .sync h3, .experience_rich h3, .annonate_pdf h3, .record_lectures h3, .annonate_pdf p{padding: 0px;}
+	.record_lectures video {margin-right: 0px;	margin-top: -20px;max-width: 90%;}
+}
+
+@media(min-width:1211px) and (max-width:1359px){
+	.experience_rich .dummy_3 {height: 80px;}
+	.annonate_pdf .dummy_4 {height: 110px;}
+	.annonate_pdf img {left: 100px;}
+	.record_lectures img {margin-top: -50px;margin-right: 90px;}
+	.orange_bg p, .sync h3, .experience_rich h3, .annonate_pdf h3, .record_lectures h3, .annonate_pdf p{padding: 0px;}
+	.record_lectures video {margin-right: 0px;	margin-top: -50px;max-width:70%;}
+}
+
+@media(min-width:1360px) and (max-width:1919px){
+	.annonate_pdf h3, .annonate_pdf p{padding: 0px;}
+	.experience_rich .dummy_3 {height: 100px;}
+	.annonate_pdf .dummy_4{height: 150px;}
+	.record_lectures img{margin-top: -50px;}
+	.record_lectures video {margin-right: 0px;	margin-top: -50px;max-width:50%;}
+}
+
+@media(min-width:768px) and (max-width:1600px){.marleft_rigt, .marleft{margin:0;}}
+@media(min-width:2000px) and (max-width:3000px){	
+	.new_noteshelf h1 {font-size: 100px;}	
+	.orange_bg h3, .sync h3, .experience_rich h3, .annonate_pdf h3, .record_lectures h3, .everywhere_bg h3, .download h3, .watch-bg h3 {font-size: 52pt;}
+	.video_one_bg {margin-top: -460px;height: 460px;}	
+	.marleft_rigt {margin: 0 350px;}
+	.experience_rich .dummy_3 {height: 150px;}	
+	.marleft {margin: 0 0 0 350px;}
+	.annonate_pdf .dummy_4 {height:200px;}
+	.annonate_pdf img {left:0px;}
+	.feelthe_bg{background-image: url("../images/feel_bg_lg.jpg")}
+	.feelthe_dummy{height:500px;}
+	
+	.annonate_pdf video{max-width:80%;position: relative;left:85px;}
+}
+@media(min-width:2000px) and (max-width:2300px){
+	.experience_rich .dummy_3 {height: 50px;}
+	.annonate_pdf .dummy_4 {height:60px;}
+	.record_lectures video {float: right;margin-right: 0px;margin-top: -100px;max-width: 73%;}
+}
+@media(min-width:768px) and (max-width:1200px){
+	.video_one {height: auto !important;}
+}
+/* Responsive Mode Section End */
+
+
+
+
+/* Privacy page Css Start */
+.privacy{margin-top:120px;padding:0 10px;margin-bottom:50px;}
+.privacy h2{color:#F6F6F6; font-size:30px;}
+.privacy p{color:#5B5B5B;margin-top:0px;}
+.privacy h3{color:rgb(44, 202, 207); font-size:20px;}
+/* Privacy page Css End */
