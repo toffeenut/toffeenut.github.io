@@ -41,12 +41,12 @@ a:active, a:hover, a:focus{outline: none;}
 /* Auto play video Section Start */
 .video_one{z-index: 999;height: 850px;}
 .video_one img{margin:40px auto 0;}
-.video_one_bg{background: #F6F6F6;height:460px;margin-top: -460px;position: relative;z-index: -1;}
+.video_one_bg{background: #FFFFFF;height:460px;margin-top: -460px;position: relative;z-index: -1;}
 .video_one video {position: absolute;top: 12.1%;left: 13%;width: 74.4%;border: 2px solid #363535;}
 /* Auto play video Section End */
 
 /* Handwritten notes Section Start */
-.orange_bg{background: #F6F6F6;text-align: center;color: #000000;}
+.orange_bg{background: #FFFFFF;text-align: center;color: #000000;}
 .orange_bg .dummy_1{height:60px;}
 .orange_bg .dummy_2{height:120px;}
 .orange_bg h3{font-size: 54pt;font-weight:700;}
@@ -157,7 +157,9 @@ a:active, a:hover, a:focus{outline: none;}
 .sync{padding:200px 0;text-align: center;}
 .sync h3{font-size: 54pt;font-weight:700;margin-top: 40px;padding: 0 94px;}
 .sync img{margin:40px auto 10px;max-width:70%;}
-.sync p{font-size:16pt;font-family: -apple-system, BlinkMacSystemFont, sans-serif;}
+.sync p{font-size:22pt;font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight:300;}
+.sync h2{font-size:22pt;font-family: -apple-system, BlinkMacSystemFont, sans-serif;font-weight:300;}
+
 /* Noteshel Sync Section End */
 
 /* Feel the Joy Section Start */
@@ -172,8 +174,7 @@ a:active, a:hover, a:focus{outline: none;}
 .experience_rich{padding:200px 0;}
 .experience_rich .dummy_3{height:150px;}
 .experience_rich h3{font-size:54pt;font-weight: 700;padding: 0 84px 0 0;}
-.experience_rich p{font-size:24pt;}
-
+.experience_rich p{font-size:22pt;}
 .experience_rich .col-md-7, .experience_rich .col-sm-7, .experience_rich .col-sm-5, .experience_rich .col-md-5{padding:0;}
 /* Experience Rich Section End */
 
@@ -519,7 +520,7 @@ a:active, a:hover, a:focus{outline: none;}
 
 /* Privacy page Css Start */
 .privacy{margin-top:120px;padding:0 10px;margin-bottom:50px;}
-.privacy h2{color:#F6F6F6; font-size:30px;}
+.privacy h2{color:#FFFFFF; font-size:30px;}
 .privacy p{color:#5B5B5B;margin-top:0px;}
 .privacy h3{color:rgb(44, 202, 207); font-size:20px;}
 /* Privacy page Css End */
