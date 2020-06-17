@@ -21,7 +21,7 @@ body {
 h1 {
   margin-top: 20px;
   margin-bottom: 15px;
-  font-family: 'Helvetica now display', Arial, sans-serif;
+  font-family: 'Helvetica now display';
   font-size: 44px;
   line-height: 62px;
   font-weight: 800;
@@ -260,7 +260,7 @@ figcaption {
 
 .heading-jumbo {
   margin-top: 0px;
-  margin-bottom: 24px;
+  margin-bottom: 36px;
   font-family: 'Helvetica now text', Arial, sans-serif;
   color: #18191f;
   font-size: 64px;
@@ -344,7 +344,9 @@ figcaption {
   display: block;
   width: 90%;
   max-width: 1400px;
-  margin: 180px auto 120px;
+  margin-right: auto;
+  margin-bottom: 120px;
+  margin-left: auto;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -362,6 +364,7 @@ figcaption {
 
 .section.hero {
   margin-top: 320px;
+  margin-bottom: 80px;
 }
 
 .section.history {
@@ -578,7 +581,7 @@ figcaption {
 
 .name-text {
   padding-bottom: 12px;
-  opacity: 0.6;
+  opacity: 0.8;
   font-family: 'Helvetica now text', Arial, sans-serif;
   color: #545b68;
   font-size: 14px;
@@ -651,7 +654,7 @@ figcaption {
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
-  font-family: 'Helvetica now display', Arial, sans-serif;
+  font-family: 'Helvetica now display';
   text-decoration: none;
   -o-object-fit: contain;
   object-fit: contain;
@@ -1103,6 +1106,7 @@ figcaption {
 
 .email-link:hover {
   opacity: 0.8;
+  color: #c0014a;
 }
 
 .email-link:active {
@@ -1287,7 +1291,7 @@ figcaption {
 }
 
 .heading {
-  font-family: 'Helvetica now display', Arial, sans-serif;
+  font-family: 'Helvetica now display';
   color: #18191f;
   font-weight: 800;
 }
@@ -1358,7 +1362,7 @@ figcaption {
 }
 
 .body-2 {
-  font-family: 'Helvetica now display', Arial, sans-serif;
+  font-family: 'Helvetica now display';
   color: #18191f;
 }
 
@@ -1415,11 +1419,11 @@ figcaption {
 }
 
 .body-3 {
-  font-family: 'Helvetica now display', Arial, sans-serif;
+  font-family: 'Helvetica now display';
 }
 
 .body-4 {
-  font-family: 'Helvetica now display', Arial, sans-serif;
+  font-family: 'Helvetica now display';
 }
 
 .column-2 {
@@ -1537,7 +1541,7 @@ figcaption {
 }
 
 .body-5 {
-  font-family: 'Helvetica now display', Arial, sans-serif;
+  font-family: 'Helvetica now display';
   font-weight: 800;
 }
 
@@ -1624,34 +1628,29 @@ figcaption {
 
 .text-span-2 {
   color: #18191f;
+  font-weight: 400;
 }
 
 .text-span-3 {
   color: #18191f;
+  font-weight: 400;
 }
 
 .text-span-4 {
   color: #18191f;
+  font-weight: 400;
 }
 
 .text-span-5 {
-  color: #18191f;
+  font-weight: 400;
 }
 
 .text-span-6 {
-  color: #18191f;
+  font-weight: 400;
 }
 
 .text-span-7 {
-  color: #18191f;
-}
-
-.text-span-8 {
-  color: #18191f;
-}
-
-.text-span-9 {
-  color: #18191f;
+  font-weight: 400;
 }
 
 .lessserious {
@@ -1661,7 +1660,7 @@ figcaption {
 }
 
 .text-span-10 {
-  color: #18191f;
+  font-weight: 400;
 }
 
 .gridview4col {
@@ -1912,6 +1911,10 @@ figcaption {
 .text-block-2 {
   font-family: 'Helvetica now text', Arial, sans-serif;
   font-weight: 800;
+}
+
+.text-span-14 {
+  font-weight: 400;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3558,8 +3561,8 @@ figcaption {
 }
 
 @font-face {
-  font-family: 'Helvetica now display';
-  src: url('../fonts/Helvetica-Now-Display-XBold.otf') format('opentype');
+  font-family: 'Helvetica now text';
+  src: url('../fonts/Helvetica-Now-Text-ExtraBold.otf') format('opentype');
   font-weight: 800;
   font-style: normal;
 }
@@ -3577,7 +3580,7 @@ figcaption {
 }
 @font-face {
   font-family: 'Helvetica now text';
-  src: url('../fonts/Helvetica-Now-Text-ExtraBold.otf') format('opentype');
-  font-weight: 800;
+  src: url('../fonts/Helvetica-Now-Text.otf') format('opentype');
+  font-weight: 400;
   font-style: normal;
 }
