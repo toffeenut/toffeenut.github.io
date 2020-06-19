@@ -282,6 +282,10 @@ figcaption {
   text-transform: none;
 }
 
+.heading-jumbo.redirect {
+  color: #fff;
+}
+
 .paragraph-tiny {
   font-family: 'Helvetica now text', Arial, sans-serif;
   color: #18191f;
@@ -481,6 +485,10 @@ figcaption {
   opacity: 0.6;
   font-family: 'Helvetica now text', Arial, sans-serif;
   font-weight: 500;
+}
+
+.paragraph-bigger.cc-bigger-light.redirect {
+  color: #fff;
 }
 
 .divider {
@@ -1932,6 +1940,10 @@ figcaption {
 
 .text-span-14 {
   font-weight: 500;
+}
+
+.text-block-3 {
+  font-family: 'Helvetica now text', Arial, sans-serif;
 }
 
 @media screen and (min-width: 1280px) {
