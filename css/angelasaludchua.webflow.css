@@ -410,7 +410,7 @@ figcaption {
 }
 
 .section.elsewhere.hide {
-  display: block;
+  display: none;
   width: 90%;
 }
 
