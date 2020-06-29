@@ -1624,7 +1624,6 @@ figcaption {
 }
 
 .imageelsewhere {
-  margin-bottom: 16px;
   border-radius: 0px;
   -webkit-filter: grayscale(70%);
   filter: grayscale(70%);
@@ -3010,6 +3009,9 @@ figcaption {
   }
   .imageelsewhere {
     margin-bottom: 16px;
+  }
+  .imageelsewhere.noteshelfer {
+    margin-bottom: 8px;
   }
   .grid-3column {
     display: block;
