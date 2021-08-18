@@ -1534,7 +1534,7 @@ figcaption {
   background-size: cover;
   background-repeat: no-repeat;
   text-decoration: none;
-  cursor: none;
+  cursor: default;
 }
 
 .image-2 {
@@ -1549,7 +1549,7 @@ figcaption {
   background-size: cover;
   background-repeat: no-repeat;
   text-decoration: none;
-  cursor: none;
+  cursor: auto;
 }
 
 .body-5 {
@@ -1958,7 +1958,7 @@ figcaption {
   background-size: cover;
   background-repeat: no-repeat;
   text-decoration: none;
-  cursor: none;
+  cursor: default;
 }
 
 .tile-sixsense {
@@ -1969,7 +1969,7 @@ figcaption {
   background-size: cover;
   background-repeat: no-repeat;
   text-decoration: none;
-  cursor: none;
+  cursor: default;
 }
 
 .tile-liho {
@@ -1980,7 +1980,7 @@ figcaption {
   background-size: cover;
   background-repeat: no-repeat;
   text-decoration: none;
-  cursor: none;
+  cursor: default;
 }
 
 .tile-momentgarden {
@@ -1991,7 +1991,7 @@ figcaption {
   background-size: cover;
   background-repeat: no-repeat;
   text-decoration: none;
-  cursor: none;
+  cursor: default;
 }
 
 @media screen and (min-width: 1280px) {
