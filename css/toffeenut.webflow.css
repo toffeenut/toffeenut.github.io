@@ -384,10 +384,6 @@ figcaption {
   margin-bottom: 80px;
 }
 
-.section.hero.about {
-  margin-top: 440px;
-}
-
 .section.history {
   width: 90%;
   max-width: 1400px;
@@ -1992,6 +1988,18 @@ figcaption {
   background-repeat: no-repeat;
   text-decoration: none;
   cursor: default;
+}
+
+.link-5 {
+  display: inline;
+}
+
+.link-6 {
+  display: inline;
+}
+
+.link-7 {
+  display: inline;
 }
 
 @media screen and (min-width: 1280px) {
