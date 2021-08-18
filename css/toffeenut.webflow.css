@@ -1263,7 +1263,7 @@ figcaption {
   border-radius: 16px;
   background-color: #207de0;
   background-image: url('../images/project-noteshelf.png');
-  background-position: 0% 100%;
+  background-position: 100% 100%;
   background-size: 580px;
   background-repeat: no-repeat;
   opacity: 1;
@@ -1527,7 +1527,7 @@ figcaption {
   border-radius: 16px;
   background-color: #4b114b;
   background-image: url('../images/project-wlondon.png');
-  background-position: 0% 100%;
+  background-position: 100% 100%;
   background-size: 580px;
   background-repeat: no-repeat;
   text-decoration: none;
@@ -1543,7 +1543,7 @@ figcaption {
   border-radius: 16px;
   background-color: #71bb0d;
   background-image: url('../images/project-metromart.jpg');
-  background-position: 0% 100%;
+  background-position: 100% 100%;
   background-size: 580px;
   background-repeat: no-repeat;
   text-decoration: none;
@@ -1586,7 +1586,7 @@ figcaption {
   border-radius: 16px;
   background-color: #f7f7f7;
   background-image: url('../images/project-uhoo.png');
-  background-position: 0% 100%;
+  background-position: 100% 100%;
   background-size: 580px;
   background-repeat: no-repeat;
   text-decoration: none;
@@ -1953,7 +1953,7 @@ figcaption {
   border-radius: 16px;
   background-color: #f7f7f7;
   background-image: url('../images/project-disneyland.png');
-  background-position: 0% 100%;
+  background-position: 100% 100%;
   background-size: 580px;
   background-repeat: no-repeat;
   text-decoration: none;
@@ -1965,7 +1965,7 @@ figcaption {
   border-radius: 16px;
   background-color: #191173;
   background-image: url('../images/project-sixsense.jpg');
-  background-position: 0% 100%;
+  background-position: 100% 100%;
   background-size: 580px;
   background-repeat: no-repeat;
   text-decoration: none;
@@ -1977,7 +1977,7 @@ figcaption {
   border-radius: 16px;
   background-color: #fff;
   background-image: url('../images/project-liho.jpg');
-  background-position: 0% 100%;
+  background-position: 100% 100%;
   background-size: 580px;
   background-repeat: no-repeat;
   text-decoration: none;
@@ -1990,7 +1990,7 @@ figcaption {
   border-radius: 16px;
   background-color: #e9c14d;
   background-image: url('../images/project-momentgarden.jpg');
-  background-position: 0% 100%;
+  background-position: 100% 100%;
   background-size: 580px;
   background-repeat: no-repeat;
   text-decoration: none;
@@ -3201,18 +3201,16 @@ figcaption {
   }
 
   .tile-noteshelf {
-    height: 600px;
+    height: 680px;
     margin-bottom: 32px;
     background-position: 0% 100%;
     background-size: cover;
   }
 
   .tile-noteshelf:hover {
-    background-image: url('../images/project-noteshelf.png');
-    background-position: 0% 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), url('../images/project-noteshelf.png');
+    background-image: linear-gradient(180deg, transparent, transparent), url('../images/project-noteshelf.png');
+    background-position: 0px 0px, 0% 100%;
   }
 
   .paragraph-top {
@@ -3251,9 +3249,9 @@ figcaption {
   }
 
   .tile-wlondon {
-    height: 600px;
+    height: 680px;
     margin-bottom: 32px;
-    background-position: 0% 100%;
+    background-position: 50% 100%;
   }
 
   .tile-metromart {
@@ -3261,20 +3259,18 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 600px;
+    height: 680px;
     margin-bottom: 32px;
+    background-position: 50% 100%;
   }
 
   .tile-uhoo {
-    height: 600px;
+    height: 680px;
     margin-bottom: 32px;
+    background-position: 0% 100%;
   }
 
   .tile-uhoo:hover {
-    background-image: url('../images/project-uhoo.png');
-    background-position: 0% 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
     -webkit-transform: scale(1.02);
     -ms-transform: scale(1.02);
     transform: scale(1.02);
@@ -3459,8 +3455,9 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 600px;
+    height: 680px;
     margin-bottom: 32px;
+    background-position: 50% 100%;
   }
 
   .tile-sixsense {
@@ -3468,8 +3465,9 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 600px;
+    height: 680px;
     margin-bottom: 32px;
+    background-position: 0% 100%;
   }
 
   .tile-liho {
@@ -3477,8 +3475,9 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 600px;
+    height: 680px;
     margin-bottom: 32px;
+    background-position: 50% 100%;
   }
 
   .tile-momentgarden {
@@ -3486,8 +3485,9 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 600px;
+    height: 680px;
     margin-bottom: 32px;
+    background-position: 50% 100%;
   }
 }
 
