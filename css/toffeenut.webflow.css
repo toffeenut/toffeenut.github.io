@@ -380,7 +380,7 @@ figcaption {
 }
 
 .section.hero {
-  margin-top: 320px;
+  margin-top: 280px;
   margin-bottom: 80px;
 }
 
@@ -1261,10 +1261,10 @@ figcaption {
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   border-radius: 16px;
-  background-color: transparent;
+  background-color: #207de0;
   background-image: url('../images/project-noteshelf.png');
   background-position: 0% 100%;
-  background-size: cover;
+  background-size: 580px;
   background-repeat: no-repeat;
   opacity: 1;
   text-decoration: none;
@@ -1525,9 +1525,10 @@ figcaption {
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   border-radius: 16px;
+  background-color: #4b114b;
   background-image: url('../images/project-wlondon.png');
   background-position: 0% 100%;
-  background-size: cover;
+  background-size: 580px;
   background-repeat: no-repeat;
   text-decoration: none;
   cursor: default;
@@ -1540,9 +1541,10 @@ figcaption {
 .tile-metromart {
   height: 800px;
   border-radius: 16px;
+  background-color: #71bb0d;
   background-image: url('../images/project-metromart.jpg');
   background-position: 0% 100%;
-  background-size: cover;
+  background-size: 580px;
   background-repeat: no-repeat;
   text-decoration: none;
   cursor: auto;
@@ -1582,10 +1584,10 @@ figcaption {
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   border-radius: 16px;
-  background-color: transparent;
+  background-color: #f7f7f7;
   background-image: url('../images/project-uhoo.png');
   background-position: 0% 100%;
-  background-size: cover;
+  background-size: 580px;
   background-repeat: no-repeat;
   text-decoration: none;
   cursor: pointer;
@@ -1949,9 +1951,10 @@ figcaption {
 .tile-disneyland {
   height: 800px;
   border-radius: 16px;
+  background-color: #f7f7f7;
   background-image: url('../images/project-disneyland.png');
   background-position: 0% 100%;
-  background-size: cover;
+  background-size: 580px;
   background-repeat: no-repeat;
   text-decoration: none;
   cursor: default;
@@ -1960,9 +1963,10 @@ figcaption {
 .tile-sixsense {
   height: 800px;
   border-radius: 16px;
+  background-color: #191173;
   background-image: url('../images/project-sixsense.jpg');
   background-position: 0% 100%;
-  background-size: cover;
+  background-size: 580px;
   background-repeat: no-repeat;
   text-decoration: none;
   cursor: default;
@@ -1971,20 +1975,23 @@ figcaption {
 .tile-liho {
   height: 800px;
   border-radius: 16px;
+  background-color: #fff;
   background-image: url('../images/project-liho.jpg');
   background-position: 0% 100%;
-  background-size: cover;
+  background-size: 580px;
   background-repeat: no-repeat;
   text-decoration: none;
+  background-clip: border-box;
   cursor: default;
 }
 
 .tile-momentgarden {
   height: 800px;
   border-radius: 16px;
+  background-color: #e9c14d;
   background-image: url('../images/project-momentgarden.jpg');
   background-position: 0% 100%;
-  background-size: cover;
+  background-size: 580px;
   background-repeat: no-repeat;
   text-decoration: none;
   cursor: default;
