@@ -535,7 +535,8 @@ figcaption {
 .navigation-item.w--current {
   opacity: 1;
   color: #1a1b1f;
-  font-weight: 600;
+  font-weight: 500;
+  text-decoration: underline;
 }
 
 .navigation-item.w--current:hover {
@@ -1272,12 +1273,6 @@ figcaption {
 }
 
 .tile-noteshelf:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(79, 11, 189, 0.5)), to(rgba(79, 11, 189, 0.5))), url('../images/project-noteshelf.png');
-  background-image: linear-gradient(180deg, rgba(79, 11, 189, 0.5), rgba(79, 11, 189, 0.5)), url('../images/project-noteshelf.png');
-  background-position: 0px 0px, 0% 100%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
-  background-attachment: scroll, scroll;
   -webkit-transform: scale(1.02);
   -ms-transform: scale(1.02);
   transform: scale(1.02);
@@ -1594,12 +1589,7 @@ figcaption {
 }
 
 .tile-uhoo:hover {
-  background-color: rgba(109, 5, 50, 0.5);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(159, 191, 201, 0.2)), to(rgba(159, 191, 201, 0.2))), url('../images/project-uhoo.png');
-  background-image: linear-gradient(180deg, rgba(159, 191, 201, 0.2), rgba(159, 191, 201, 0.2)), url('../images/project-uhoo.png');
-  background-position: 0px 0px, 0% 100%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
+  background-color: #f7f7f7;
   opacity: 1;
   -webkit-transform: scale(1.02);
   -ms-transform: scale(1.02);
@@ -2079,7 +2069,28 @@ figcaption {
   }
 
   .work-description {
-    width: 70%;
+    width: 80%;
+  }
+
+  .tile-noteshelf {
+    background-position: 0% 100%;
+  }
+
+  .grid {
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .tile-metromart {
+    background-position: 50% 100%;
+  }
+
+  .tile-uhoo {
+    background-position: 0% 100%;
+  }
+
+  .tile-sixsense {
+    background-position: 0% 100%;
   }
 }
 
@@ -2910,9 +2921,8 @@ figcaption {
   }
 
   .section {
-    width: 100%;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 16px;
+    margin-left: 16px;
   }
 
   .section.hero {
@@ -2970,15 +2980,24 @@ figcaption {
   }
 
   .navigation-item {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 8px;
+    padding-left: 8px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
   }
 
+  .navigation-item.w--current {
+    font-weight: 500;
+    text-decoration: underline;
+  }
+
   .navigation-items {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     background-color: transparent;
   }
 
@@ -3058,6 +3077,7 @@ figcaption {
   }
 
   .gridview3col {
+    display: block;
     margin-bottom: 40px;
   }
 
@@ -3203,6 +3223,7 @@ figcaption {
   .tile-noteshelf {
     height: 680px;
     margin-bottom: 32px;
+    border-radius: 0px;
     background-position: 0% 100%;
     background-size: cover;
   }
@@ -3251,6 +3272,7 @@ figcaption {
   .tile-wlondon {
     height: 680px;
     margin-bottom: 32px;
+    border-radius: 0px;
     background-position: 50% 100%;
   }
 
@@ -3261,12 +3283,14 @@ figcaption {
     display: flex;
     height: 680px;
     margin-bottom: 32px;
+    border-radius: 0px;
     background-position: 50% 100%;
   }
 
   .tile-uhoo {
     height: 680px;
     margin-bottom: 32px;
+    border-radius: 0px;
     background-position: 0% 100%;
   }
 
@@ -3457,6 +3481,7 @@ figcaption {
     display: flex;
     height: 680px;
     margin-bottom: 32px;
+    border-radius: 0px;
     background-position: 50% 100%;
   }
 
@@ -3467,6 +3492,7 @@ figcaption {
     display: flex;
     height: 680px;
     margin-bottom: 32px;
+    border-radius: 0px;
     background-position: 0% 100%;
   }
 
@@ -3477,6 +3503,7 @@ figcaption {
     display: flex;
     height: 680px;
     margin-bottom: 32px;
+    border-radius: 0px;
     background-position: 50% 100%;
   }
 
@@ -3487,6 +3514,7 @@ figcaption {
     display: flex;
     height: 680px;
     margin-bottom: 32px;
+    border-radius: 0px;
     background-position: 50% 100%;
   }
 }
