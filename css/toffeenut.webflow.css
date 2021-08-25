@@ -1487,8 +1487,12 @@ figcaption {
   grid-column-gap: 32px;
   grid-row-gap: 32px;
   grid-template-areas: ".";
-  -ms-grid-rows: minmax(auto, 720px) 32px auto 32px auto;
-  grid-template-rows: minmax(auto, 720px) auto auto;
+  -ms-grid-rows: minmax(auto, 720px);
+  grid-template-rows: minmax(auto, 720px);
+}
+
+.grid.detail {
+  margin-bottom: 140px;
 }
 
 .tile-wlondon {
@@ -1972,6 +1976,7 @@ figcaption {
   background-repeat: no-repeat;
   text-decoration: none;
   background-clip: border-box;
+  -webkit-text-fill-color: inherit;
   cursor: default;
 }
 
@@ -2010,10 +2015,6 @@ figcaption {
 }
 
 @media screen and (min-width: 1440px) {
-  .work-description {
-    text-decoration: none;
-  }
-
   .works-grid:hover {
     background-color: transparent;
   }
@@ -2029,8 +2030,8 @@ figcaption {
   }
 
   .tile-noteshelf:hover {
-    background-color: transparent;
     opacity: 1;
+    color: #207de0;
   }
 
   .paragraph-top {
@@ -2043,7 +2044,6 @@ figcaption {
   }
 
   .tile-wlondon:hover {
-    background-color: transparent;
     opacity: 1;
   }
 
@@ -2053,7 +2053,6 @@ figcaption {
   }
 
   .tile-uhoo:hover {
-    background-color: transparent;
     opacity: 1;
   }
 }
@@ -2073,12 +2072,12 @@ figcaption {
   }
 
   .tile-noteshelf {
-    background-position: 0% 100%;
+    background-position: 100% 100%;
   }
 
   .grid {
-    -ms-grid-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .tile-metromart {
@@ -2086,11 +2085,11 @@ figcaption {
   }
 
   .tile-uhoo {
-    background-position: 0% 100%;
+    background-position: 100% 100%;
   }
 
   .tile-sixsense {
-    background-position: 0% 100%;
+    background-position: 100% 100%;
   }
 }
 
