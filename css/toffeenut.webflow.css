@@ -1966,11 +1966,11 @@ figcaption {
   cursor: default;
 }
 
-.tile-liho {
+.tile-promly {
   height: 800px;
   border-radius: 16px;
-  background-color: #fff;
-  background-image: url('../images/project-liho.jpg');
+  background-color: #512c7d;
+  background-image: url('../images/project-promly.png');
   background-position: 100% 100%;
   background-size: 580px;
   background-repeat: no-repeat;
@@ -2002,6 +2002,14 @@ figcaption {
 
 .link-7 {
   display: inline;
+}
+
+.text-span-16 {
+  font-weight: 500;
+}
+
+.text-span-17 {
+  font-weight: 500;
 }
 
 @media screen and (min-width: 1280px) {
@@ -2849,7 +2857,7 @@ figcaption {
     display: flex;
   }
 
-  .tile-liho {
+  .tile-promly {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -3495,7 +3503,7 @@ figcaption {
     background-position: 0% 100%;
   }
 
-  .tile-liho {
+  .tile-promly {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
