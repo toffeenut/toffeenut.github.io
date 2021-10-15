@@ -380,8 +380,12 @@ figcaption {
 }
 
 .section.hero {
-  margin-top: 280px;
+  margin-top: 20vh;
   margin-bottom: 80px;
+}
+
+.section.hero.about {
+  margin-top: 30vh;
 }
 
 .section.history {
@@ -398,6 +402,10 @@ figcaption {
 
 .section.title.hide {
   display: none;
+}
+
+.section.title.about {
+  margin-top: 100px;
 }
 
 .section.email {
@@ -600,7 +608,7 @@ figcaption {
 }
 
 .intro-wrap {
-  width: 65%;
+  width: 80%;
 }
 
 .name-text {
@@ -777,6 +785,10 @@ figcaption {
 
 .sectionheadline.noteshelfer {
   margin-bottom: 40px;
+}
+
+.sectionheadline.projects {
+  margin-bottom: 20px;
 }
 
 .project-name-link {
@@ -1139,12 +1151,12 @@ figcaption {
 }
 
 .email-link:hover {
-  opacity: 0.8;
-  color: #c0014a;
+  opacity: 1;
+  color: #618fde;
 }
 
 .email-link:active {
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .utility-page-wrap {
@@ -1943,7 +1955,6 @@ figcaption {
 }
 
 .tile-disneyland {
-  height: 800px;
   border-radius: 16px;
   background-color: #f7f7f7;
   background-image: url('../images/project-disneyland.png');
@@ -2934,9 +2945,13 @@ figcaption {
 
   .section.hero {
     width: 90%;
-    margin-top: 180px;
+    margin-top: 80px;
     margin-right: 16px;
     margin-left: 16px;
+  }
+
+  .section.hero.about {
+    margin-top: 10vh;
   }
 
   .section.history {
@@ -3063,7 +3078,7 @@ figcaption {
   }
 
   .work-description {
-    width: 80%;
+    width: 90%;
     margin-right: 20px;
     margin-left: 20px;
     padding-top: 16px;
@@ -3106,6 +3121,11 @@ figcaption {
 
   .sectionheadline {
     margin-bottom: 40px;
+  }
+
+  .sectionheadline.projects {
+    padding-right: 16px;
+    padding-left: 16px;
   }
 
   .contact {
