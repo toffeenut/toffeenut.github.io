@@ -91,10 +91,16 @@ h6 {
 }
 
 .background-line {
-  width: 0.2px;
+  width: 0.7px;
   height: 100vh;
   background-color: #00f1ec;
   opacity: 0.32;
+}
+
+.background-line.hide {
+  width: 0.5px;
+  margin-right: 1px;
+  margin-left: 1px;
 }
 
 .container {
