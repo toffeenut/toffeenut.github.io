@@ -1434,6 +1434,10 @@ h6 {
   line-height: 19px;
 }
 
+.global-style {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     padding-right: 20px;
