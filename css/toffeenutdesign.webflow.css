@@ -1007,9 +1007,9 @@ h6 {
 .shot-2 {
   position: absolute;
   top: 29px;
-  right: 90px;
-  width: 168px;
-  height: 168px;
+  right: 140px;
+  width: 144px;
+  height: 144px;
   background-image: url('../images/fluidtouch.png');
   background-position: 50% 50%;
   background-size: cover;
@@ -1018,9 +1018,9 @@ h6 {
 .shot-3 {
   position: absolute;
   top: 283px;
-  width: 236px;
-  height: 236px;
-  background-image: url('../images/meetingcppa.jpg');
+  width: 216px;
+  height: 432px;
+  background-image: url('../images/momentgarden.png');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1029,9 +1029,9 @@ h6 {
   position: absolute;
   left: 293px;
   top: 207px;
-  width: 368px;
-  height: 275px;
-  background-image: url('../images/yacht.png');
+  width: 205px;
+  height: 444px;
+  background-image: url('../images/panicmechanic.png');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1042,6 +1042,7 @@ h6 {
   right: 0px;
   width: 250px;
   height: 250px;
+  border-radius: 10px;
   background-image: url('../images/iphoneicons.png');
   background-position: 50% 50%;
   background-size: cover;
@@ -1049,10 +1050,11 @@ h6 {
 
 .shot-6 {
   position: absolute;
-  left: 260px;
-  top: 577px;
+  left: 480px;
+  top: 160px;
   width: 208px;
   height: 146px;
+  border-radius: 10px;
   background-image: url('../images/talk.jpg');
   background-position: 50% 50%;
   background-size: 208px;
@@ -1064,6 +1066,7 @@ h6 {
   top: 500px;
   width: 238px;
   height: 134px;
+  border-radius: 10px;
   background-image: url('../images/tvapp.png');
   background-position: 50% 50%;
   background-size: cover;
@@ -1076,6 +1079,7 @@ h6 {
   right: 27px;
   width: 161px;
   height: 161px;
+  border-radius: 10px;
   background-image: url('../images/tiphospitality.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -1084,10 +1088,10 @@ h6 {
 .shot-9 {
   position: absolute;
   left: 120px;
-  top: 107px;
-  width: 200px;
-  height: 200px;
-  background-image: url('../images/dailynotes.png');
+  top: 120px;
+  width: 174px;
+  height: 174px;
+  background-image: url('../images/icon.png');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1095,21 +1099,21 @@ h6 {
 .shot-10 {
   position: absolute;
   top: 73px;
-  right: 240px;
-  width: 245px;
-  height: 328px;
-  background-image: url('../images/ronin.png');
+  right: 260px;
+  width: 172px;
+  height: 350px;
+  background-image: url('../images/promly.png');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .shot-11 {
   position: absolute;
-  left: 64px;
-  top: 472px;
-  width: 253px;
-  height: 323px;
-  background-image: url('../images/card.png');
+  left: 120px;
+  top: 580px;
+  width: 331px;
+  height: 280px;
+  background-image: url('../images/switchpod.png');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1445,8 +1449,8 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 56px;
-  padding-right: 200px;
-  padding-left: 200px;
+  padding-right: 160px;
+  padding-left: 160px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -1455,6 +1459,17 @@ h6 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.shot-2b {
+  position: absolute;
+  top: 110px;
+  right: 30px;
+  width: 139px;
+  height: 139px;
+  background-image: url('../images/noteshelf.png');
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 @media screen and (max-width: 991px) {
@@ -1790,25 +1805,21 @@ h6 {
   }
 
   .shot-1 {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
 
   .shot-2 {
     top: 16px;
-    right: 268px;
+    right: 120px;
   }
 
   .shot-3 {
     top: 230px;
-    width: 131px;
-    height: 92px;
   }
 
   .shot-4 {
-    display: none;
-    width: 300px;
-    height: 210px;
+    left: 240px;
   }
 
   .shot-5 {
@@ -1816,28 +1827,31 @@ h6 {
   }
 
   .shot-6 {
-    width: 100px;
-    height: 100px;
+    left: 240px;
+    top: 0px;
   }
 
   .shot-7 {
-    width: 213px;
-    height: 150px;
+    left: 400px;
+    top: 240px;
+  }
+
+  .shot-8 {
+    top: 640px;
   }
 
   .shot-9 {
-    width: 174px;
-    height: 174px;
+    width: 140px;
+    height: 140px;
   }
 
   .shot-10 {
-    width: 240px;
-    height: 168px;
+    top: 280px;
+    right: 90px;
   }
 
   .shot-11 {
-    width: 201px;
-    height: 141px;
+    top: 520px;
   }
 
   .hero-shot-4 {
@@ -1881,6 +1895,10 @@ h6 {
   .award-wrapper-web {
     padding-right: 60px;
     padding-left: 60px;
+  }
+
+  .shot-2b {
+    right: 0px;
   }
 }
 
@@ -2111,20 +2129,64 @@ h6 {
     margin-bottom: 23px;
   }
 
+  .shot-2 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .shot-3 {
+    width: 140px;
+    height: 280px;
+    border-radius: 10px;
+  }
+
   .shot-4 {
+    left: 220px;
     display: block;
+    width: 160px;
+    height: 320px;
+    border-radius: 10px;
   }
 
   .shot-5 {
-    display: none;
+    top: 440px;
+    display: block;
+    width: 200px;
+    height: 200px;
   }
 
   .shot-6 {
+    display: block;
+  }
+
+  .shot-7 {
+    left: 380px;
+  }
+
+  .shot-8 {
+    top: 500px;
     display: none;
   }
 
   .shot-9 {
+    display: block;
+  }
+
+  .shot-10 {
+    top: 380px;
+    right: 250px;
+    width: 150px;
+    height: 300px;
+    border-radius: 10px;
+  }
+
+  .shot-11 {
+    left: 200px;
     display: none;
+  }
+
+  .shot-12 {
+    top: 630px;
   }
 
   .hero-shot-2 {
@@ -2215,6 +2277,12 @@ h6 {
   .award-wrapper-web {
     padding-right: 25px;
     padding-left: 25px;
+  }
+
+  .shot-2b {
+    top: 140px;
+    width: 120px;
+    height: 120px;
   }
 }
 
@@ -2340,6 +2408,11 @@ h6 {
 
   .text-wrapper {
     padding-right: 0px;
+  }
+
+  .service-wrapper {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .div-hide {
@@ -2669,6 +2742,10 @@ h6 {
     padding-left: 20px;
   }
 
+  .shots-wrapper {
+    height: 70vh;
+  }
+
   .shot-1 {
     display: none;
   }
@@ -2678,17 +2755,21 @@ h6 {
   }
 
   .shot-3 {
-    width: 92px;
+    left: 10px;
+    width: 120px;
+    height: 240px;
   }
 
   .shot-4 {
     left: 154px;
-    top: 14px;
+    top: 30px;
     display: block;
-    width: 94%;
+    width: 40%;
+    height: 260px;
   }
 
   .shot-5 {
+    top: 340px;
     right: -10px;
     display: block;
   }
@@ -2706,8 +2787,10 @@ h6 {
   }
 
   .shot-8 {
-    top: 451px;
+    top: 280px;
     display: block;
+    width: 120px;
+    height: 120px;
   }
 
   .shot-9 {
@@ -2719,14 +2802,17 @@ h6 {
     top: 30%;
     right: 40%;
     bottom: auto;
-    display: block;
-    width: 100px;
+    display: none;
   }
 
   .shot-11 {
     left: -20px;
     top: 415px;
     display: none;
+  }
+
+  .shot-12 {
+    top: 500px;
   }
 
   .hero-shot-4 {
@@ -2800,6 +2886,7 @@ h6 {
 
   .shot-13 {
     left: -50px;
+    display: none;
   }
 
   .social {
@@ -2820,6 +2907,11 @@ h6 {
     -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
+  }
+
+  .shot-2b {
+    top: 100px;
+    right: 160px;
   }
 }
 
