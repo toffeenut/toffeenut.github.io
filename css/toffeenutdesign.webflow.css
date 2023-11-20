@@ -1229,6 +1229,10 @@ h6 {
   right: 30px;
 }
 
+.link {
+  color: var(--alice-blue);
+}
+
 @media screen and (max-width: 991px) {
   .container {
     padding-left: 20px;
