@@ -1254,15 +1254,10 @@ h6 {
 
 .pdf {
   max-height: 100vh;
-  max-width: 100vw;
+  max-width: 100%;
   min-height: 100vh;
-  object-fit: cover;
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.html-embed {
-  object-fit: fill;
 }
 
 @media screen and (max-width: 991px) {
