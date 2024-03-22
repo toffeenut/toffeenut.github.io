@@ -1113,7 +1113,7 @@ h6 {
 }
 
 .heading-6 {
-  color: #fff;
+  color: #ce9049;
   font-size: 30px;
   font-weight: 300;
   line-height: 36px;
@@ -1258,6 +1258,10 @@ h6 {
   min-height: 100vh;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.link-2 {
+  color: #a05909;
 }
 
 @media screen and (max-width: 991px) {
