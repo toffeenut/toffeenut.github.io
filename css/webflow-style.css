@@ -2055,15 +2055,15 @@ textarea.w-input, textarea.w-select {
 
 :root {
   --black: #000;
-  --line-color: #e9e7e5;
+  --cornflower-blue: #dfd1c6;
   --steel-blue: #dfdad5;
+  --line-color: #e9e7e5;
   --footer: #2a2a2a;
   --alice-blue: #e4f1fb;
   --deep-pink: #be9d7c;
   --blue: #0330d0;
   --forest-green: #08a610;
   --forest-green-2: #178c1e;
-  --cornflower-blue: #dfd1c6;
 }
 
 .w-layout-grid {
@@ -2156,8 +2156,6 @@ h6 {
 
 .line-wrapper {
   z-index: 0;
-  opacity: .22;
-  border: 1px solid #fff;
   justify-content: space-between;
   max-width: 1198px;
   margin-left: auto;
@@ -2168,8 +2166,8 @@ h6 {
 }
 
 .background-line {
-  background-color: var(--line-color);
-  opacity: .32;
+  background-color: var(--cornflower-blue);
+  opacity: .1;
   width: .7px;
   height: 100vh;
 }
@@ -2289,7 +2287,7 @@ h6 {
 }
 
 .body-text.white {
-  color: var(--steel-blue);
+  color: var(--line-color);
 }
 
 .body-text.black {
@@ -2379,7 +2377,7 @@ h6 {
 }
 
 .heading-5 {
-  color: var(--line-color);
+  color: var(--cornflower-blue);
   font-size: 38px;
   font-weight: 300;
   line-height: 44px;
@@ -2436,6 +2434,10 @@ h6 {
 
 .div-50 {
   width: 50%;
+}
+
+.heading-3 {
+  color: var(--cornflower-blue);
 }
 
 .heading-3.white {
@@ -2601,7 +2603,12 @@ h6 {
 }
 
 .website-image {
+  filter: grayscale(40%);
   width: 100%;
+}
+
+.website-image:hover {
+  filter: none;
 }
 
 .title-3 {
@@ -2845,7 +2852,13 @@ h6 {
 }
 
 .award-image-web {
+  opacity: .8;
   filter: grayscale();
+}
+
+.award-image-web.light {
+  opacity: .45;
+  filter: invert() grayscale();
 }
 
 .footer-logo, .footer-logo-mobile {
@@ -3013,7 +3026,7 @@ h6 {
 
 .hero-shot-4 {
   z-index: -1;
-  width: 15vw;
+  width: 20vw;
   position: absolute;
   inset: 60px 31% auto auto;
   transform: rotate(-20deg);
@@ -3021,14 +3034,14 @@ h6 {
 
 .hero-shot-3 {
   z-index: -2;
-  width: 16vw;
+  width: 20vw;
   position: absolute;
   inset: 80px 16% auto auto;
   transform: rotate(28deg);
 }
 
 .hero-shot-2 {
-  width: 17vw;
+  width: 20vw;
   position: absolute;
   inset: auto auto 64px 22%;
   transform: rotate(-10deg);
@@ -3135,10 +3148,10 @@ h6 {
 }
 
 .heading-6 {
-  color: #fff;
-  font-size: 30px;
+  color: #ffffff80;
+  font-size: 24px;
   font-weight: 300;
-  line-height: 36px;
+  line-height: 24px;
 }
 
 .heading-6.black {
@@ -4627,13 +4640,6 @@ h6 {
 
 @font-face {
   font-family: 'Roobert';
-  src: url('../images/roobert-light.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Roobert';
   src: url('../images/roobert-bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
@@ -4650,6 +4656,13 @@ h6 {
   font-family: 'Roobert';
   src: url('../images/roobert-regular.otf') format('opentype');
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roobert';
+  src: url('../images/roobert-light.otf') format('opentype');
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
