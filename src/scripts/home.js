@@ -23,7 +23,7 @@ async function playIntro(root) {
   const copy = root.querySelectorAll('.hero-copy > *');
   const head = document.querySelector('.site-head');
 
-  gsap.set(chars, { yPercent: 110 });
+  gsap.set(chars, { yPercent: 160 }); // fully below the mask, descender room included
   gsap.set(copy, { y: 24, opacity: 0 });
   gsap.set(head, { opacity: 0 });
 
