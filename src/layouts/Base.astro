@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import { person } from '../data/site.js';
 
-const { title, description, path = '/' } = Astro.props;
+const { title, description, path = '/', extraLd = null } = Astro.props;
 const canonical = new URL(path, Astro.site).href;
 const ogImage = new URL('/og.jpg', Astro.site).href;
 
@@ -48,6 +48,7 @@ const jsonLd = {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" />
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    {extraLd && <script type="application/ld+json" set:html={JSON.stringify(extraLd)} />}
   </head>
   <body>
     <slot />

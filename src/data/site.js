@@ -41,6 +41,18 @@ export const about = {
   ],
 };
 
+// About page FAQ. Shown on the page and tagged as FAQ structured data.
+// `a` is plain text (what search engines and AI tools read); `html` is optional, for links on the page.
+export const faq = [
+  { q: 'Who is Angela Salud Chua?', a: 'Angela Salud Chua is a product designer and Head of Product Design at DigiValet. She has been designing apps since 2008, starting in Manila, Philippines, and is based in New York.' },
+  { q: 'What does she do at DigiValet?', a: 'She runs the product function end to end: strategy, design, and the bar every detail has to clear. DigiValet’s technology runs in luxury hotels, branded residences, workspaces, senior living and health-tech properties around the world.' },
+  { q: 'When did she start designing apps?', a: 'In 2008, in Manila, when the App Store was still new. She started in visual and icon design and moved into user experience design as apps learned to scale.' },
+  { q: 'What is Toffeenut Design Studio?', a: 'Her independent product design and strategy studio, which worked as an agency, a fractional design partner and an embedded team. It later became the design core of DigiValet.' },
+  { q: 'Which brands has she designed for?', a: 'Aman, Bvlgari, Wynn Resorts, Riyadh Air, Samsung, Salesforce, Stanford Medicine, Noteshelf, Tastemade, uHoo and MetroMart, among others. Her work has earned an Apple Editors’ Choice, a CES Innovation Awards honor, and Awwwards and CSSDA recognition.' },
+  { q: 'How can I reach her?', a: 'On LinkedIn (linkedin.com/in/angelasaludchua), or by email at angela@toffeenutdesign.com.',
+    html: 'On <a href="https://www.linkedin.com/in/angelasaludchua/" target="_blank" rel="noopener">LinkedIn</a>, or by email at <a href="mailto:angela@toffeenutdesign.com">angela@toffeenutdesign.com</a>.' },
+];
+
 // Homepage photos, in order. `file` is the image name in src/assets/work.
 // `alt` is the description search engines and screen readers use.
 export const work = [
@@ -53,8 +65,8 @@ export const work = [
   { file: 'casadigi-smart-home-app.jpg', alt: 'Casadigi smart home app by DigiValet, in dark mode, with now playing, room scenes, quick service requests, party planning, and temperature, shade and drape controls; integrates fully with Lutron, Crestron and other smart home IoT systems.' },
   { file: 'digivalet-in-room-light.jpg', alt: 'DigiValet in-room hotel tablet app in a light theme, with room controls, requests and Wi-Fi details.' },
   { file: 'the5-ai-outfit-diary.jpg', alt: 'the5 AI outfit diary app, sharing a daily outfit photo, with look and fashion generation.' },
-  { file: 'noteshelf-note-taking-app.jpg', alt: 'Noteshelf, an award-winning digital note-taking and handwriting app on iPad, with notebooks, planners and journals organized by category.' },
+  { file: 'noteshelf-note-taking-app.jpg', alt: 'Noteshelf, an award-winning digital note-taking and handwriting app on iPad, with notebooks, planners and journals organized by category. Founding designer. App creator. Side project.' },
   { file: 'panic-mechanic-app.jpg', alt: 'Panic Mechanic app tracking heart rate, lifestyle factors and triggers during a panic attack.' },
   { file: 'axiamatic-feedback-dashboard.jpg', alt: 'Axiamatic stakeholder feedback dashboard on a laptop, with an overall score, survey engagement and a feedback timeline.' },
-  { file: 'uhoo-air-quality-dashboard.jpg', alt: 'uHoo air quality dashboard on a tablet and mobile app, tracking temperature, humidity, CO2, PM2.5 and other sensors across buildings, with a virus index and red, orange and green zones.' },
+  { file: 'uhoo-air-quality-dashboard.jpg', alt: 'uHoo air quality dashboard on a tablet and mobile app, tracking temperature, humidity, CO2, PM2.5 and other sensors across buildings, with a virus index and red, orange and green zones. B2B and B2C.' },
 ];

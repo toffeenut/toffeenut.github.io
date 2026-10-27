@@ -1,12 +1,19 @@
 ---
 import Base from '../layouts/Base.astro';
 import Header from '../components/Header.astro';
-import { person, about } from '../data/site.js';
+import { person, about, faq } from '../data/site.js';
+
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
 ---
 <Base
   title="About Angela Salud Chua"
   description="Angela Salud Chua has designed apps since 2008, starting in Manila. Founder of Toffeenut Design Studio and Head of Product Design at DigiValet."
   path="/about/"
+  extraLd={faqLd}
 >
   <main class="v-about">
     <Header home={false} />
@@ -30,6 +37,17 @@ import { person, about } from '../data/site.js';
           <a href={person.linkedin} target="_blank" rel="noopener">LinkedIn</a>
           <a href={`mailto:${person.email}`}>{person.email}</a>
         </div>
+      </section>
+      <section class="a-row ruled" aria-label="Questions people ask">
+        <h2>Questions people ask</h2>
+        <dl class="a-faq">
+          {faq.map((f) => (
+            <div>
+              <dt>{f.q}</dt>
+              {f.html ? <dd set:html={f.html} /> : <dd>{f.a}</dd>}
+            </div>
+          ))}
+        </dl>
       </section>
     </div>
     <footer class="wrap a-foot">

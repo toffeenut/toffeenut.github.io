@@ -22,10 +22,10 @@ She has been designing apps since 2008, starting in Manila, Philippines, and is 
 - Casadigi Smart Home: smart home app by DigiValet with now playing, room scenes, quick service requests, party planning, and temperature, shade and drape controls; integrates with Lutron, Crestron and other smart home IoT systems
 - DigiValet in-room hotel tablet app, light theme: room controls, requests and Wi-Fi details
 - the5: AI outfit diary app for sharing a daily outfit photo, with look and fashion generation (fractional consulting)
-- Noteshelf: award-winning digital note-taking and handwriting app on iPad, with notebooks, planners and journals organized by category
+- Noteshelf: award-winning digital note-taking and handwriting app on iPad, with notebooks, planners and journals organized by category (founding designer, app creator, side project)
 - Panic Mechanic: non-profit app tracking heart rate, lifestyle factors and triggers during a panic attack (fractional consulting)
 - Axiamatic web app: stakeholder feedback dashboard with an overall score, survey engagement and a feedback timeline (fractional consulting through Swarm in Manila, Philippines)
-- uHoo: air quality dashboard and mobile app tracking temperature, humidity, CO2, PM2.5 and other sensors across buildings, with a virus index and red, orange and green zones
+- uHoo: air quality dashboard and mobile app tracking temperature, humidity, CO2, PM2.5 and other sensors across buildings, with a virus index and red, orange and green zones, for B2B and B2C
 
 ## Brands she has designed for
 
