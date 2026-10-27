@@ -35,8 +35,8 @@ export const about = {
     'Angela also holds a UX Analyst certification from Human Factors International.',
   ],
   brands: [
-    'Aman', 'Bvlgari', 'Raffles', 'W Hotels', 'Okada Manila', 'Wynn Resorts', 'Riyadh Air', 'Aldar', 'Armani', 'Dior',
-    'Samsung', 'Huawei', 'Salesforce', 'Stanford', 'Good Morning America', 'Tastemade', 'Mann+Hummel', 'Incentex',
+    'Aman', 'Bvlgari', 'Raffles', 'W Hotels', 'Okada Manila', 'Wynn Resorts', 'Aldar', 'Armani', 'Dior',
+    'Samsung', 'Huawei', 'Salesforce', 'Stanford Medicine', 'Good Morning America', 'Tastemade', 'Mann+Hummel', 'Incentex',
     'Wavemaker', 'REinvent', 'Realmac', 'naked Hub', 'LiHO Tea', 'JustCo', 'Shiny Frog', 'MetroMart', 'uHoo', 'Noteshelf',
   ],
 };
