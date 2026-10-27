@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import { person, about } from '../data/site.js';
+---
+<Base
+  title="About Angela Salud Chua"
+  description="Angela Salud Chua has designed apps since 2008, starting in Manila. Founder of Toffeenut Design Studio and Head of Product Design at DigiValet."
+  path="/about/"
+>
+  <main class="v-about">
+    <Header home={false} />
+    <div class="wrap a-main">
+      <div class="a-top">
+        <p class="lab">About</p>
+        <h1 class="a-name">{person.name}</h1>
+        <p class="a-line">{about.line}</p>
+      </div>
+      <section class="a-row" aria-label="Story">
+        <h2>The short version</h2>
+        <div class="a-story">{about.story.map((p) => <p>{p}</p>)}</div>
+      </section>
+      <section class="a-row ruled" aria-label="Brands">
+        <h2>Brands she has designed for</h2>
+        <p class="a-brands">{about.brands.join(' · ')} · among others</p>
+      </section>
+      <section class="a-row ruled" aria-label="Find Angela">
+        <h2>Find Angela</h2>
+        <div class="a-links">
+          <a href={person.linkedin} target="_blank" rel="noopener">LinkedIn</a>
+          <a href={`mailto:${person.email}`}>{person.email}</a>
+        </div>
+      </section>
+    </div>
+    <footer class="wrap a-foot">
+      <a href="/">&larr; Back to work</a>
+      <span class="lab">&copy; 2026 {person.name}</span>
+    </footer>
+  </main>
+</Base>

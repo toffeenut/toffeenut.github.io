@@ -1,0 +1,13 @@
+---
+import { person } from '../data/site.js';
+const { home = true } = Astro.props;
+---
+<header class="site-head">
+  <div class="wrap head-row">
+    {home ? <span class="who">{person.name}</span> : <a class="who" href="/">&larr; {person.name}</a>}
+    <nav aria-label="Contact" class="head-nav">
+      <a href={`mailto:${person.email}`}>{person.email}</a>
+      <a href={person.linkedin} target="_blank" rel="noopener">LinkedIn &nearr;</a>
+    </nav>
+  </div>
+</header>

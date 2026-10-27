@@ -1,0 +1,75 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import { person, home, work } from '../data/site.js';
+
+const images = import.meta.glob('../assets/work/*.jpg', { eager: true });
+const items = work.map((w, i) => {
+  const img = images[`../assets/work/${w.file}`].default;
+  const wide = img.width / img.height > 1.2;
+  return { ...w, img, cls: wide ? 'wide' : i % 2 ? 'right' : 'left', eager: i === 0 };
+});
+---
+<Base
+  title="Angela Salud Chua · Product Design and Strategy"
+  description="Angela Salud Chua is Head of Product Design at DigiValet. Twenty years designing apps for global brands."
+>
+  <main class="v-home" id="home">
+    <Header />
+    <section class="wrap hero" data-bg="#F4F1EA" data-fg="#141312">
+      <div class="hero-copy">
+        <p class="headline">{home.headline}</p>
+        <p class="sub">{home.sub}</p>
+        <p class="meta">{home.meta[0]}<br />{home.meta[1]}</p>
+      </div>
+      <h1 class="name">{person.name}</h1>
+    </section>
+
+    <section class="wrap work" data-bg="#131313" data-fg="#F1EDE4" aria-label="Selected work">
+      {items.map((it) => (
+        <figure class={`m-fig ${it.cls}`}>
+          <Image
+            class="m-img"
+            src={it.img}
+            alt={it.alt}
+            widths={[640, 1080, 1600]}
+            sizes={it.cls === 'wide' ? '(max-width: 1180px) 100vw, 1116px' : '(max-width: 680px) 100vw, 620px'}
+            loading={it.eager ? 'eager' : 'lazy'}
+          />
+        </figure>
+      ))}
+    </section>
+
+    <section class="about-band" data-bg="#3D1219" data-fg="#F6E7E2" aria-label="About">
+      <div class="wrap about-in">
+        <div class="about-row">
+          <h2>About</h2>
+          <p class="about-p words">{home.about}</p>
+        </div>
+        <div class="stats rise">
+          {home.stats.map((s) => (
+            <div><span class="big">{s.value}</span><span class="lab">{s.label}</span></div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <div class="foot-band" data-bg="#D9C39C" data-fg="#1A1712">
+      <footer class="wrap foot">
+        <p class="closing rise">{home.closing}</p>
+        <div class="foot-row">
+          <div class="foot-links">
+            <a href={`mailto:${person.email}`}>{person.email}</a>
+            <a href={person.linkedin} target="_blank" rel="noopener">LinkedIn &nearr;</a>
+          </div>
+          <span class="lab foot-meta"><a href="/about/">About</a><span>{home.footnote}</span></span>
+        </div>
+      </footer>
+    </div>
+  </main>
+  <script>
+    import { initHome } from '../scripts/home.js';
+    initHome();
+  </script>
+</Base>

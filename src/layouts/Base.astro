@@ -1,0 +1,55 @@
+---
+import '../styles/global.css';
+import { person } from '../data/site.js';
+
+const { title, description, path = '/' } = Astro.props;
+const canonical = new URL(path, Astro.site).href;
+const ogImage = new URL('/og.jpg', Astro.site).href;
+
+// Structured data: tells search engines and AI tools who this site is about.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: person.name,
+  url: person.url,
+  email: `mailto:${person.email}`,
+  jobTitle: person.title,
+  worksFor: { '@type': 'Organization', name: 'DigiValet', url: 'https://www.digivalet.com' },
+  homeLocation: { '@type': 'Place', name: 'New York, NY, United States' },
+  description:
+    'Product designer who started designing apps in Manila, Philippines, in 2008. Head of Product Design at DigiValet and founder of Toffeenut Design Studio.',
+  knowsAbout: ['Product design', 'Product strategy', 'User experience design', 'Mobile app design', 'Design systems', 'Hospitality technology'],
+  hasCredential: {
+    '@type': 'EducationalOccupationalCredential',
+    name: 'UX Analyst certification',
+    recognizedBy: { '@type': 'Organization', name: 'Human Factors International' },
+  },
+  founder: { '@type': 'Organization', name: 'Toffeenut Design Studio', url: 'https://www.toffeenutdesign.com' },
+  sameAs: [person.linkedin, 'https://dribbble.com/toffeenut'],
+};
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
