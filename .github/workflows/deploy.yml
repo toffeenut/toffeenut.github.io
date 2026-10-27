@@ -1,4 +1,4 @@
-# Builds the site and publishes it to GitHub Pages every time you push to main.
+# Builds the site and publishes it to GitHub Pages every time you push to master.
 name: Deploy to GitHub Pages
 
 on:
@@ -23,6 +23,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Install, build and upload the site
         uses: withastro/action@v3
+        with:
+          node-version: 22
 
   deploy:
     needs: build
