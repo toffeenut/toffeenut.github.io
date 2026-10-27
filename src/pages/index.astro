@@ -16,6 +16,15 @@ const items = work.map((w, i) => {
   description="Angela Salud Chua is Head of Product Design at DigiValet. Twenty years designing apps for global brands."
 >
   <main class="v-home" id="home">
+    <script is:inline>
+      // First visit in a session gets the intro. Skipped for reduced motion.
+      try {
+        if (!matchMedia('(prefers-reduced-motion: reduce)').matches && !sessionStorage.getItem('introSeen')) {
+          document.documentElement.classList.add('intro');
+        }
+      } catch (e) {}
+    </script>
+    <div class="intro-cover" aria-hidden="true"><span class="intro-mark">{person.name}</span></div>
     <Header />
     <section class="wrap hero" data-bg="#F4F1EA" data-fg="#141312">
       <div class="hero-copy">
@@ -23,7 +32,7 @@ const items = work.map((w, i) => {
         <p class="sub">{home.sub}</p>
         <p class="meta">{home.meta[0]}<br />{home.meta[1]}</p>
       </div>
-      <h1 class="name">{person.name}</h1>
+      <h1 class="name" aria-label={person.name}><span class="name-mask" aria-hidden="true">{[...person.name].map((c) => <span class="ch">{c === ' ' ? '\u00a0' : c}</span>)}</span></h1>
     </section>
 
     <section class="wrap work" data-bg="#131313" data-fg="#F1EDE4" aria-label="Selected work">

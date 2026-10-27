@@ -85,3 +85,18 @@ h2 { margin: 0; font-size: 16px; font-weight: 500; opacity: 0.62; }
 .a-links { flex: 999 1 560px; display: flex; flex-wrap: wrap; gap: 16px 40px; font-size: 20px; }
 .a-links a { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
 .a-foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: 14px; border-top: 1px solid var(--rule); padding-block: 24px 40px; }
+
+/* ---------- Page-load intro (homepage, first visit per session) ---------- */
+.intro-cover { display: none; }
+html.intro .intro-cover,
+html.intro-run .intro-cover {
+  display: flex; position: fixed; inset: 0; z-index: 100;
+  align-items: flex-end; padding: 0 max(16px, 4vw) 6vh;
+  background: #131313; color: #F1EDE4;
+}
+.intro-mark { font-size: 15px; font-weight: 500; letter-spacing: 0.01em; opacity: 0.7; }
+/* Safety net: if the script never runs, the cover gets out of the way on its own. */
+html.intro .intro-cover { animation: intro-failsafe 0s 3s forwards; }
+@keyframes intro-failsafe { to { visibility: hidden; } }
+.name-mask { display: inline-block; overflow: hidden; padding-bottom: 0.26em; margin-bottom: -0.26em; vertical-align: bottom; }
+.name .ch { display: inline-block; will-change: transform; }
