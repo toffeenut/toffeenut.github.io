@@ -27,6 +27,14 @@ const jsonLd = {
   founder: { '@type': 'Organization', name: 'Toffeenut Design Studio', url: 'https://www.toffeenutdesign.com' },
   sameAs: [person.linkedin, 'https://dribbble.com/toffeenut'],
 };
+// Site name Google shows above the address in results.
+const siteLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Angela Salud Chua',
+  alternateName: ['Toffeenut Design', 'ASC'],
+  url: 'https://www.toffeenutdesign.com/',
+};
 ---
 <!doctype html>
 <html lang="en">
@@ -36,7 +44,11 @@ const jsonLd = {
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-96.png" sizes="96x96" type="image/png" />
+    <link rel="icon" href="/favicon-48.png" sizes="48x48" type="image/png" />
+    <link rel="icon" href="/favicon.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta property="og:site_name" content="Angela Salud Chua" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <meta property="og:type" content="profile" />
     <meta property="og:title" content={title} />
@@ -48,6 +60,7 @@ const jsonLd = {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" />
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    {path === '/' && <script type="application/ld+json" set:html={JSON.stringify(siteLd)} />}
     {extraLd && <script type="application/ld+json" set:html={JSON.stringify(extraLd)} />}
   </head>
   <body>
