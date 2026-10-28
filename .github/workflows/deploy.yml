@@ -36,3 +36,10 @@ jobs:
       - name: Publish to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      # Tell Bing (and other IndexNow search engines) the pages changed. Never fails the deploy.
+      - name: Ping IndexNow
+        run: |
+          sleep 30
+          curl -s -o /dev/null -w "IndexNow: %{http_code}\n" -X POST https://api.indexnow.org/indexnow \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d '{"host":"www.toffeenutdesign.com","key":"a441aa888cde97cfd947dc61c1681f94","keyLocation":"https://www.toffeenutdesign.com/a441aa888cde97cfd947dc61c1681f94.txt","urlList":["https://www.toffeenutdesign.com/","https://www.toffeenutdesign.com/about/","https://www.toffeenutdesign.com/llms.txt"]}' || true
