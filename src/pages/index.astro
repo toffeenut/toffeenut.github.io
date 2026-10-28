@@ -30,7 +30,7 @@ const items = work.map((w, i) => {
       <div class="hero-copy">
         <p class="headline">{home.headline}</p>
         <p class="sub">{home.sub}</p>
-        <p class="meta">{home.meta[0]}<br />{home.meta[1]}</p>
+        <p class="meta">{home.meta[0]}<br /><span class="loc">{home.meta[1]}</span></p>
       </div>
       <h1 class="name" aria-label={person.name}><span class="name-mask" aria-hidden="true">{[...person.name].map((c) => <span class="ch">{c === ' ' ? '\u00a0' : c}</span>)}</span></h1>
     </section>

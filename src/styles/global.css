@@ -45,7 +45,8 @@ h2 { margin: 0; font-size: 16px; font-weight: 500; opacity: 0.62; }
 .hero-copy { display: flex; flex-direction: column; gap: 16px; max-width: 640px; }
 .headline { margin: 0; font-size: clamp(26px, 2.8vw, 42px); line-height: 1.1; letter-spacing: -0.035em; font-weight: 500; text-wrap: balance; }
 .sub { margin: 0; max-width: 480px; font-size: clamp(19px, 1.7vw, 24px); line-height: 1.45; opacity: 0.62; }
-.meta { margin: 0; font-size: 15px; line-height: 1.45; font-weight: 500; opacity: 0.62; }
+.meta { margin: 0; font-size: 15px; line-height: 1.45; font-weight: 500; }
+.meta .loc { opacity: 0.62; }
 .name { margin: 0; font-size: min(248px, calc((100vw - 32px) / 9.2)); line-height: 0.86; letter-spacing: -0.065em; font-weight: 600; white-space: nowrap; }
 
 .work { max-width: 1180px; display: flex; flex-direction: column; gap: 96px; padding-block: 160px; }
